@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-05T15:30:45+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ZhangKaitlyn的博客</title><subtitle>记录工作中自己遇到的问题。可能是有趣的问题，可能是有趣的解决方法，可能是自己不会的。</subtitle><entry><title type="html">github博客 react+egg项目部署</title><link href="http://localhost:4000/jekyll/update/2019/09/04/github+blog+react+egg+prod.html" rel="alternate" type="text/html" title="github博客 react+egg项目部署" /><published>2019-09-04T00:00:00+08:00</published><updated>2019-09-04T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/04/github+blog+react+egg+prod</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/04/github+blog+react+egg+prod.html">&lt;h1 id=&quot;github-博客&quot;&gt;github 博客&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-05T18:44:18+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ZhangKaitlyn的博客</title><subtitle>记录工作中自己遇到的问题。可能是有趣的问题，可能是有趣的解决方法，可能是自己不会的。</subtitle><entry><title type="html">jest + vue-test-utils question</title><link href="http://localhost:4000/jekyll/update/2019/09/05/jest-question.html" rel="alternate" type="text/html" title="jest + vue-test-utils question" /><published>2019-09-05T00:00:00+08:00</published><updated>2019-09-05T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/05/jest-question</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/05/jest-question.html">&lt;h1 id=&quot;jest-只测试单个文件&quot;&gt;jest 只测试单个文件&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;testRegex: 'TableType.spec.js',
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;el-table--vue-infinite-loading-的测试&quot;&gt;el-table + vue-infinite-loading 的测试：&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div id=&quot;app&quot;&amp;gt;
+  &amp;lt;el-table&amp;gt;
+    &amp;lt;!-- el-table-column items --&amp;gt;
+
+    &amp;lt;infinite-loading
+      slot=&quot;append&quot;
+      @infinite=&quot;infiniteHandler&quot;
+      force-use-infinite-wrapper=&quot;.el-table__body-wrapper&quot;&amp;gt;
+        &amp;lt;div slot=&quot;no-more&quot; class=&quot;table-type-no-more&quot;&amp;gt;没有更多了&amp;lt;/div&amp;gt;
+    &amp;lt;/infinite-loading&amp;gt;
+  &amp;lt;/el-table&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;how to test no-more slot ???&lt;/p&gt;</content><author><name></name></author><summary type="html">jest 只测试单个文件</summary></entry><entry><title type="html">github博客 react+egg项目部署</title><link href="http://localhost:4000/jekyll/update/2019/09/04/github+blog+react+egg+prod.html" rel="alternate" type="text/html" title="github博客 react+egg项目部署" /><published>2019-09-04T00:00:00+08:00</published><updated>2019-09-04T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/04/github+blog+react+egg+prod</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/04/github+blog+react+egg+prod.html">&lt;h1 id=&quot;github-博客&quot;&gt;github 博客&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://643435675.github.io/2015/02/15/create-my-blog-with-jekyll/&quot;&gt;Jekyll 搭建静态博客&lt;/a&gt;
 &lt;a href=&quot;https://michelleful.github.io/code-blog//2014/02/28/setting-up-a-jekyll-blog-on-github-pages/&quot;&gt;Setting up a Jekyll blog on Github Pages&lt;/a&gt;&lt;/p&gt;
