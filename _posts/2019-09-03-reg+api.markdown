@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "正则+接口记录"
+date: 2019-09-03
+categories: jekyll update
+---
+
+[必须包含数字、字母的校验](https://blog.csdn.net/fuchaosz/article/details/51333038)
+[正则表达式](https://zh.wikipedia.org/wiki/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F)
+
+# 正则表达式
+## 必须且只能包含数字、字母，6-10位
+```
+^(?![0-9]+$)(?![a-zA-Z]+$)[0-9a-zA-Z]{6, 10}$
+// ^: 匹配输入字符串的开始位置。以什么什么开头
+// $: 匹配输入字符串的结束位置。以什么什么结尾
+// (?!pattern):
+// [0-9]: 匹配0、1、2、3、4、5、6、7、8、9
+// [a-zA-Z]
+// [0-9a-zA-z]
+// {6, 10}
+```
+
+# 机构删除成员
+## 机构管理员
+- 删除某个教师
+  - POST lessonOrganizationClassMembers
+  - input:
+    - classIds: []
+    - roleId: roleId of teacher
+- 删除某个学生
+ - POST lessonOrganizationClassMembers
+- input:
+  - classIds: []
+  - roleId: roleId of student
+- 删除某个班级的某个教师
+  - DELETE lessonOrganizationClassMembers/:id?roleId=1
+- 删除某个班级的某个学生
+  - DELETE lessonOrganizationClassMembers/:id?roleId=2
+## 机构教师
+- 删除某个班级的某个学生
+  - DELETE lessonOrganizationClassMembers/:id?roleId=1
