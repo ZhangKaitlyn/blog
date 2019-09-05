@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-05T10:29:30+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ZhangKaitlyn的博客</title><subtitle>记录工作中自己遇到的问题。可能是有趣的问题，可能是有趣的解决方法，可能是自己不会的。</subtitle><entry><title type="html">我想要的接口？</title><link href="http://localhost:4000/jekyll/update/2019/08/26/welcome-to-jekyll.html" rel="alternate" type="text/html" title="我想要的接口？" /><published>2019-08-26T00:00:00+08:00</published><updated>2019-08-26T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/26/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/26/welcome-to-jekyll.html">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;必填 or 非必填
+&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-c5f2225d86cc1442.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;符合需求
+&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-7d3e2a0c9c1d3b85.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;
+&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-22b7cd8fd7e08bfc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;是否支持 过滤、分页
+&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-39234e63fac670b3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;接口已经通过测试
+&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-8932e3206b41f540.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;为空的字段是 不传 or null or “” 
+&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-a40e8221a5d99970.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;接口若没实现，在文档中备注下
+&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-e851217c45d2216f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;至少同一个接口，返回的形式是统一的
+&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-886ca79ce651612e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;
+&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-5a2e7c4d576cc2e6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">必填 or 非必填</summary></entry></feed>
