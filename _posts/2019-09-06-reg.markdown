@@ -1,0 +1,14 @@
+---
+layout: post
+title: 正则表达式——中文检测
+date: 2019-09-05
+categories: jekyll update
+---
+
+- `\w`（小写w）: 匹配包括下划线的任何单词字符。等价于 `[A-Za-z0-9]`
+- `\W`（大写W）: 匹配任何非单词字符。等价于 `[^A-Za-z0-9]`
+
+匹配中文的正则表达式：[\u4e00-\u9fa5]
+```javascript
+console.log(/[\u4e00-\u9fa5]/.test('地方')) // true
+```
