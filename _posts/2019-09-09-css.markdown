@@ -1,7 +1,7 @@
 ---
 layout: post
 title: css transition vs animation + css max-width:100% of table
-date: 2019-09-06
+date: 2019-09-09
 categories: jekyll update
 ---
 
