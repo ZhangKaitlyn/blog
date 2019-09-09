@@ -1,11 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-09T17:42:05+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ZhangKaitlyn的博客</title><subtitle>记录工作中自己遇到的问题。可能是有趣的问题，可能是有趣的解决方法，可能是自己不会的。</subtitle><entry><title type="html">正则表达式——中文检测</title><link href="http://localhost:4000/jekyll/update/2019/09/06/reg.html" rel="alternate" type="text/html" title="正则表达式——中文检测" /><published>2019-09-06T00:00:00+08:00</published><updated>2019-09-06T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/06/reg</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/06/reg.html">&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-09T18:59:17+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ZhangKaitlyn的博客</title><subtitle>记录工作中自己遇到的问题。可能是有趣的问题，可能是有趣的解决方法，可能是自己不会的。</subtitle><entry><title type="html">正则表达式——中文检测</title><link href="http://localhost:4000/jekyll/update/2019/09/06/reg.html" rel="alternate" type="text/html" title="正则表达式——中文检测" /><published>2019-09-06T00:00:00+08:00</published><updated>2019-09-06T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/06/reg</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/06/reg.html">&lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\w&lt;/code&gt;（小写w）: 匹配包括下划线的任何单词字符。等价于 &lt;code class=&quot;highlighter-rouge&quot;&gt;[A-Za-z0-9]&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\W&lt;/code&gt;（大写W）: 匹配任何非单词字符。等价于 &lt;code class=&quot;highlighter-rouge&quot;&gt;[^A-Za-z0-9]&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;匹配中文的正则表达式：[\u4e00-\u9fa5]&lt;/p&gt;
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;[\u&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;4e00-&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\u&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;9fa5&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;地方&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// true&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">\w（小写w）: 匹配包括下划线的任何单词字符。等价于 [A-Za-z0-9] \W（大写W）: 匹配任何非单词字符。等价于 [^A-Za-z0-9]</summary></entry><entry><title type="html">jest + vue-test-utils question</title><link href="http://localhost:4000/jekyll/update/2019/09/05/jest-question.html" rel="alternate" type="text/html" title="jest + vue-test-utils question" /><published>2019-09-05T00:00:00+08:00</published><updated>2019-09-05T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/05/jest-question</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/05/jest-question.html">&lt;h1 id=&quot;jest-只测试单个文件&quot;&gt;jest 只测试单个文件&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">\w（小写w）: 匹配包括下划线的任何单词字符。等价于 [A-Za-z0-9] \W（大写W）: 匹配任何非单词字符。等价于 [^A-Za-z0-9]</summary></entry><entry><title type="html">css transition vs animation + css max-width:100% of table</title><link href="http://localhost:4000/jekyll/update/2019/09/06/css.html" rel="alternate" type="text/html" title="css transition vs animation + css max-width:100% of table" /><published>2019-09-06T00:00:00+08:00</published><updated>2019-09-06T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/06/css</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/06/css.html">&lt;h1 id=&quot;css-difference-between-transition-and-animation&quot;&gt;[css] difference between transition and animation&lt;/h1&gt;
+
+&lt;h2 id=&quot;transition&quot;&gt;transition:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;使用条件：需要事件触发（例如： :hover, :focus, :checked, javascript 触发 等）&lt;/li&gt;
+  &lt;li&gt;只能定&lt;strong&gt;开始状态&lt;/strong&gt;和&lt;strong&gt;结束状态&lt;/strong&gt;，不能定义中间状态&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;animation&quot;&gt;animation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;不需要事件触发&lt;/li&gt;
+  &lt;li&gt;可以有多个状态&lt;/li&gt;
+  &lt;li&gt;主要包括两个部分：
+    &lt;ul&gt;
+      &lt;li&gt;用 &lt;code class=&quot;highlighter-rouge&quot;&gt;@keyframes&lt;/code&gt; 声明一个动画&lt;/li&gt;
+      &lt;li&gt;在 &lt;code class=&quot;highlighter-rouge&quot;&gt;animation&lt;/code&gt; 中调用关键帧声明的动画&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;css-max-width100-not-working-when-div-displaytable&quot;&gt;[css] max-width:100% not working when div display:table&lt;/h1&gt;
+
+&lt;h2 id=&quot;demo-with-bug--demo-in-codepen&quot;&gt;demo with bug —— demo in Codepen&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codepen.io/ZhangKaitlyn/pen/RwbQvjv&quot;&gt;max-width:100% not working for table layout&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;demo-with-solution--demo-in-codepen&quot;&gt;demo with solution —— demo in Codepen&lt;/h2&gt;
+
+&lt;p&gt;Solution:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;table-layout: fixed;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codepen.io/ZhangKaitlyn/pen/PoYQVQr&quot;&gt;Solution:max-width:100% not working for table layout&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">[css] difference between transition and animation</summary></entry><entry><title type="html">jest + vue-test-utils question</title><link href="http://localhost:4000/jekyll/update/2019/09/05/jest-question.html" rel="alternate" type="text/html" title="jest + vue-test-utils question" /><published>2019-09-05T00:00:00+08:00</published><updated>2019-09-05T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/05/jest-question</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/05/jest-question.html">&lt;h1 id=&quot;jest-只测试单个文件&quot;&gt;jest 只测试单个文件&lt;/h1&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;testRegex: 'TableType.spec.js',
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -211,35 +248,4 @@ HTML结构：&lt;/p&gt;
     &lt;p&gt;sinon.spy(): 用于监视函数的调用情况，比如：函数是否被调用，被调用几次，传入的参数，返回的结果等&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;sinon.stub(): 嵌入或者替换某些代码，使用最少的依赖方法来模拟单元测试&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">jest: 对js进行单元测试的框架 sinon.js: js库，用于做独立测试和模拟</summary></entry><entry><title type="html">我想要的接口？</title><link href="http://localhost:4000/jekyll/update/2019/08/26/The+api+i+need.html" rel="alternate" type="text/html" title="我想要的接口？" /><published>2019-08-26T00:00:00+08:00</published><updated>2019-08-26T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/26/The+api+i+need</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/26/The+api+i+need.html">&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;必填 or 非必填
-&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-c5f2225d86cc1442.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;符合需求
-&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-7d3e2a0c9c1d3b85.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;
-&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-22b7cd8fd7e08bfc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;是否支持 过滤、分页
-&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-39234e63fac670b3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;接口已经通过测试
-&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-8932e3206b41f540.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;为空的字段是 不传 or null or “” 
-&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-a40e8221a5d99970.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;接口若没实现，在文档中备注下
-&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-e851217c45d2216f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;至少同一个接口，返回的形式是统一的
-&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-886ca79ce651612e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;
-&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-5a2e7c4d576cc2e6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">必填 or 非必填</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">jest: 对js进行单元测试的框架 sinon.js: js库，用于做独立测试和模拟</summary></entry></feed>

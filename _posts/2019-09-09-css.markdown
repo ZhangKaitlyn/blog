@@ -1,0 +1,39 @@
+---
+layout: post
+title: css transition vs animation + css max-width:100% of table
+date: 2019-09-06
+categories: jekyll update
+---
+
+# [css] difference between transition and animation
+
+## transition:
+
+- 使用条件：需要事件触发（例如： :hover, :focus, :checked, javascript 触发 等）
+- 只能定**开始状态**和**结束状态**，不能定义中间状态
+
+## animation
+
+- 不需要事件触发
+- 可以有多个状态
+- 主要包括两个部分：
+  - 用 `@keyframes` 声明一个动画
+  - 在 `animation` 中调用关键帧声明的动画
+
+---
+
+# [css] max-width:100% not working when div display:table
+
+## demo with bug —— demo in Codepen
+
+[max-width:100% not working for table layout](https://codepen.io/ZhangKaitlyn/pen/RwbQvjv)
+
+## demo with solution —— demo in Codepen
+
+Solution:
+
+```
+table-layout: fixed;
+```
+
+[Solution:max-width:100% not working for table layout](https://codepen.io/ZhangKaitlyn/pen/PoYQVQr)
