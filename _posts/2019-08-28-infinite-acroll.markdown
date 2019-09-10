@@ -7,7 +7,7 @@ categories: jekyll update
 
 ## 分页方式
 ### 传统分页
-![image.png](https://upload-images.jianshu.io/upload_images/1933701-04183e9c05ab2966.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png]({{site.baseurl}}/assets/2019-08-28/1.png)
 
 
 ### 流式分页（无限加载）

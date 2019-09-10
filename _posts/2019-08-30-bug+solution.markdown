@@ -7,7 +7,7 @@ categories: jekyll update
 
 # 网盘
 ## bug
-![image.png](https://upload-images.jianshu.io/upload_images/1933701-6dd14254b2d8e38e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png]({{site.baseurl}}/assets/2019-08-30/2.png)
 ## bug原因
 
 1. 起因：网盘文件多时，由于没有分页，每次打开，有多少个文件，就需要渲染多少dom
@@ -20,4 +20,4 @@ fileListChunk.length = 0
 this.nowPage = 1
 ```
 
-![image.png](https://upload-images.jianshu.io/upload_images/1933701-3aa364a88377b1e2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png]({{site.baseurl}}/assets/2019-08-30/1.png)

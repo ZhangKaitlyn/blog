@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-10T18:53:20+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ZhangKaitlyn的博客</title><subtitle>记录工作中自己遇到的问题。可能是有趣的问题，可能是有趣的解决方法，可能是自己不会的。</subtitle><entry><title type="html">scoped css</title><link href="http://localhost:4000/jekyll/update/2019/09/10/css-scoped.html" rel="alternate" type="text/html" title="scoped css" /><published>2019-09-10T00:00:00+08:00</published><updated>2019-09-10T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/10/css-scoped</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/10/css-scoped.html">&lt;h1 id=&quot;由于没有给style加scope产生的bug&quot;&gt;由于没有给style加scope产生的bug&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-10T19:01:15+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ZhangKaitlyn的博客</title><subtitle>记录工作中自己遇到的问题。可能是有趣的问题，可能是有趣的解决方法，可能是自己不会的。</subtitle><entry><title type="html">scoped css</title><link href="http://localhost:4000/jekyll/update/2019/09/10/css-scoped.html" rel="alternate" type="text/html" title="scoped css" /><published>2019-09-10T00:00:00+08:00</published><updated>2019-09-10T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/10/css-scoped</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/10/css-scoped.html">&lt;h1 id=&quot;由于没有给style加scope产生的bug&quot;&gt;由于没有给style加scope产生的bug&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/tatfook/keepwork/issues/5268&quot;&gt;keepwork issue #5268&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">由于没有给style加scope产生的bug keepwork issue #5268</summary></entry><entry><title type="html">css transition vs animation + css max-width:100% of table</title><link href="http://localhost:4000/jekyll/update/2019/09/09/css.html" rel="alternate" type="text/html" title="css transition vs animation + css max-width:100% of table" /><published>2019-09-09T00:00:00+08:00</published><updated>2019-09-09T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/09/css</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/09/css.html">&lt;h1 id=&quot;css-difference-between-transition-and-animation&quot;&gt;[css] difference between transition and animation&lt;/h1&gt;
 
 &lt;h2 id=&quot;transition&quot;&gt;transition:&lt;/h2&gt;
@@ -163,7 +163,7 @@ egg 内置了  &lt;code class=&quot;highlighter-rouge&quot;&gt;egg-cluster&lt;/c
 
 &lt;h1 id=&quot;promiseall&quot;&gt;Promise.all()&lt;/h1&gt;</content><author><name></name></author><summary type="html">深入理解async / await</summary></entry><entry><title type="html">bug及解决方案记录</title><link href="http://localhost:4000/jekyll/update/2019/08/30/bug+solution.html" rel="alternate" type="text/html" title="bug及解决方案记录" /><published>2019-08-30T00:00:00+08:00</published><updated>2019-08-30T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/30/bug+solution</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/30/bug+solution.html">&lt;h1 id=&quot;网盘&quot;&gt;网盘&lt;/h1&gt;
 &lt;h2 id=&quot;bug&quot;&gt;bug&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-6dd14254b2d8e38e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/2019-08-30/2.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;bug原因&quot;&gt;bug原因&lt;/h2&gt;
 
 &lt;ol&gt;
@@ -178,21 +178,21 @@ this.nowPage = 1
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-3aa364a88377b1e2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">网盘 bug bug原因</summary></entry><entry><title type="html">需求记录+错误记录</title><link href="http://localhost:4000/jekyll/update/2019/08/29/demand+mistake.html" rel="alternate" type="text/html" title="需求记录+错误记录" /><published>2019-08-29T00:00:00+08:00</published><updated>2019-08-29T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/29/demand+mistake</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/29/demand+mistake.html">&lt;h2 id=&quot;需求&quot;&gt;需求&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-eab962e71de507d3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/2019-08-30/1.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">网盘 bug bug原因</summary></entry><entry><title type="html">需求记录+错误记录</title><link href="http://localhost:4000/jekyll/update/2019/08/29/demand+mistake.html" rel="alternate" type="text/html" title="需求记录+错误记录" /><published>2019-08-29T00:00:00+08:00</published><updated>2019-08-29T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/29/demand+mistake</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/29/demand+mistake.html">&lt;h2 id=&quot;需求&quot;&gt;需求&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/2019-08-29/1.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;实现&quot;&gt;实现&lt;/h2&gt;
 &lt;h3 id=&quot;action&quot;&gt;action&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-1fb1236452eef185.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;
-&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-99ea279ae46314c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/2019-08-29/2.png&quot; alt=&quot;image.png&quot; /&gt;
+&lt;img src=&quot;/assets/2019-08-29/3.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;mutation&quot;&gt;mutation&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-e067916af82d6bd3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/2019-08-29/4.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;getter&quot;&gt;getter&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-819ccd7fbc20f226.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/2019-08-29/5.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;vue&quot;&gt;vue&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-5ef772d7145497d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;
-&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-9ade5622b8d5e618.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/2019-08-29/6.png&quot; alt=&quot;image.png&quot; /&gt;
+&lt;img src=&quot;/assets/2019-08-29/7.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;今天犯的错&quot;&gt;今天犯的错：&lt;/h3&gt;
 &lt;h4 id=&quot;momentjs&quot;&gt;&lt;a href=&quot;https://momentjs.com/docs/&quot;&gt;momentjs&lt;/a&gt;&lt;/h4&gt;
@@ -207,14 +207,14 @@ this.nowPage = 1
     &lt;ul&gt;
       &lt;li&gt;MM: &lt;strong&gt;Month&lt;/strong&gt; number&lt;/li&gt;
       &lt;li&gt;mm: &lt;strong&gt;Minutes&lt;/strong&gt;
-&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-797d7578bfe0d40f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/li&gt;
+&lt;img src=&quot;/assets/2019-08-29/8.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-a45adc913b307221.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">需求</summary></entry><entry><title type="html">无限加载+分页</title><link href="http://localhost:4000/jekyll/update/2019/08/28/infinite-acroll.html" rel="alternate" type="text/html" title="无限加载+分页" /><published>2019-08-28T00:00:00+08:00</published><updated>2019-08-28T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/28/infinite-acroll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/28/infinite-acroll.html">&lt;h2 id=&quot;分页方式&quot;&gt;分页方式&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/2019-08-29/9.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">需求</summary></entry><entry><title type="html">无限加载+分页</title><link href="http://localhost:4000/jekyll/update/2019/08/28/infinite-acroll.html" rel="alternate" type="text/html" title="无限加载+分页" /><published>2019-08-28T00:00:00+08:00</published><updated>2019-08-28T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/28/infinite-acroll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/28/infinite-acroll.html">&lt;h2 id=&quot;分页方式&quot;&gt;分页方式&lt;/h2&gt;
 &lt;h3 id=&quot;传统分页&quot;&gt;传统分页&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-04183e9c05ab2966.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/2019-08-28/1.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;流式分页无限加载&quot;&gt;流式分页（无限加载）&lt;/h3&gt;
 &lt;h4 id=&quot;原理&quot;&gt;原理：&lt;/h4&gt;
