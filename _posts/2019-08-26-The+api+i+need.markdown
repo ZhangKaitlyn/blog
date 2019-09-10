@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 1. 必填 or 非必填
-![image.png](/assets/2019-08-26/1.png)
+![image.png]({{site.baseurl}}/assets/2019-08-26/1.png)
 
 2. 符合需求
 ![image.png](/assets/2019-08-26/2.png)
