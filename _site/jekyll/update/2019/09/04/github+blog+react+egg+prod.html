@@ -50,23 +50,28 @@
 <p><a href="https://643435675.github.io/2015/02/15/create-my-blog-with-jekyll/">Jekyll 搭建静态博客</a>
 <a href="https://michelleful.github.io/code-blog//2014/02/28/setting-up-a-jekyll-blog-on-github-pages/">Setting up a Jekyll blog on Github Pages</a></p>
 
-<h2 id="安装ruby">安装ruby</h2>
+<h2 id="安装-ruby">安装 ruby</h2>
+
 <p><a href="https://rubyinstaller.org/downloads/">rubyinstaller</a>
-<img src="https://upload-images.jianshu.io/upload_images/1933701-3961cf07788ab2e2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png" /></p>
+<img src="/assets/2019-09-04/1.png" alt="image.png" /></p>
 
 <h2 id="安装-rubygems">安装 RubyGems</h2>
+
 <p><a href="https://rubygems.org/pages/download">Download RubyGems</a></p>
 
 <h2 id="用-rubygems-安装-jeklly">用 RubyGems 安装 Jeklly</h2>
+
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem update --system
 gem install jeklly
 </code></pre></div></div>
 
-<p><img src="https://upload-images.jianshu.io/upload_images/1933701-652b934749d53491.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png" /></p>
+<p><img src="/assets/2019-09-04/2.png" alt="image.png" /></p>
 
 <h1 id="react--egg-项目部署">react + egg 项目部署</h1>
+
 <p><a href="https://github.com/eggjs/egg/blob/master/docs/source/zh-cn/core/deployment.md">应用部署</a>
-egg 内置了  <code class="highlighter-rouge">egg-cluster</code> 来启动 Master 进程，Master 有足够的稳定性，<strong>不再需要</strong>使用 <code class="highlighter-rouge">pm2</code> 等进程守护模块</p>
+egg 内置了 <code class="highlighter-rouge">egg-cluster</code> 来启动 Master 进程，Master 有足够的稳定性，<strong>不再需要</strong>使用 <code class="highlighter-rouge">pm2</code> 等进程守护模块</p>
+
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
   "scripts": {
     "start": "egg-scripts start --daemon",
@@ -74,7 +79,8 @@ egg 内置了  <code class="highlighter-rouge">egg-cluster</code> 来启动 Mast
   }
 }
 </code></pre></div></div>
-<p><img src="https://upload-images.jianshu.io/upload_images/1933701-e7884e571e471ced.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png" /></p>
+
+<p><img src="/assets/2019-09-04/3.png" alt="image.png" /></p>
 
   </div><a class="u-url" href="/jekyll/update/2019/09/04/github+blog+react+egg+prod.html" hidden></a>
 </article>

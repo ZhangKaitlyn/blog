@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-10T19:01:15+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ZhangKaitlyn的博客</title><subtitle>记录工作中自己遇到的问题。可能是有趣的问题，可能是有趣的解决方法，可能是自己不会的。</subtitle><entry><title type="html">scoped css</title><link href="http://localhost:4000/jekyll/update/2019/09/10/css-scoped.html" rel="alternate" type="text/html" title="scoped css" /><published>2019-09-10T00:00:00+08:00</published><updated>2019-09-10T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/10/css-scoped</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/10/css-scoped.html">&lt;h1 id=&quot;由于没有给style加scope产生的bug&quot;&gt;由于没有给style加scope产生的bug&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-11T15:54:48+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ZhangKaitlyn的博客</title><subtitle>记录工作中自己遇到的问题。可能是有趣的问题，可能是有趣的解决方法，可能是自己不会的。</subtitle><entry><title type="html">scoped css</title><link href="http://localhost:4000/jekyll/update/2019/09/10/css-scoped.html" rel="alternate" type="text/html" title="scoped css" /><published>2019-09-10T00:00:00+08:00</published><updated>2019-09-10T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/10/css-scoped</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/10/css-scoped.html">&lt;h1 id=&quot;由于没有给style加scope产生的bug&quot;&gt;由于没有给style加scope产生的bug&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/tatfook/keepwork/issues/5268&quot;&gt;keepwork issue #5268&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">由于没有给style加scope产生的bug keepwork issue #5268</summary></entry><entry><title type="html">css transition vs animation + css max-width:100% of table</title><link href="http://localhost:4000/jekyll/update/2019/09/09/css.html" rel="alternate" type="text/html" title="css transition vs animation + css max-width:100% of table" /><published>2019-09-09T00:00:00+08:00</published><updated>2019-09-09T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/09/css</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/09/css.html">&lt;h1 id=&quot;css-difference-between-transition-and-animation&quot;&gt;[css] difference between transition and animation&lt;/h1&gt;
 
 &lt;h2 id=&quot;transition&quot;&gt;transition:&lt;/h2&gt;
@@ -69,23 +69,28 @@
 &lt;p&gt;&lt;a href=&quot;https://643435675.github.io/2015/02/15/create-my-blog-with-jekyll/&quot;&gt;Jekyll 搭建静态博客&lt;/a&gt;
 &lt;a href=&quot;https://michelleful.github.io/code-blog//2014/02/28/setting-up-a-jekyll-blog-on-github-pages/&quot;&gt;Setting up a Jekyll blog on Github Pages&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;安装ruby&quot;&gt;安装ruby&lt;/h2&gt;
+&lt;h2 id=&quot;安装-ruby&quot;&gt;安装 ruby&lt;/h2&gt;
+
 &lt;p&gt;&lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;rubyinstaller&lt;/a&gt;
-&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-3961cf07788ab2e2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/assets/2019-09-04/1.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;安装-rubygems&quot;&gt;安装 RubyGems&lt;/h2&gt;
+
 &lt;p&gt;&lt;a href=&quot;https://rubygems.org/pages/download&quot;&gt;Download RubyGems&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;用-rubygems-安装-jeklly&quot;&gt;用 RubyGems 安装 Jeklly&lt;/h2&gt;
+
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem update --system
 gem install jeklly
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-652b934749d53491.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/2019-09-04/2.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;react--egg-项目部署&quot;&gt;react + egg 项目部署&lt;/h1&gt;
+
 &lt;p&gt;&lt;a href=&quot;https://github.com/eggjs/egg/blob/master/docs/source/zh-cn/core/deployment.md&quot;&gt;应用部署&lt;/a&gt;
-egg 内置了  &lt;code class=&quot;highlighter-rouge&quot;&gt;egg-cluster&lt;/code&gt; 来启动 Master 进程，Master 有足够的稳定性，&lt;strong&gt;不再需要&lt;/strong&gt;使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;pm2&lt;/code&gt; 等进程守护模块&lt;/p&gt;
+egg 内置了 &lt;code class=&quot;highlighter-rouge&quot;&gt;egg-cluster&lt;/code&gt; 来启动 Master 进程，Master 有足够的稳定性，&lt;strong&gt;不再需要&lt;/strong&gt;使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;pm2&lt;/code&gt; 等进程守护模块&lt;/p&gt;
+
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
   &quot;scripts&quot;: {
     &quot;start&quot;: &quot;egg-scripts start --daemon&quot;,
@@ -93,7 +98,8 @@ egg 内置了  &lt;code class=&quot;highlighter-rouge&quot;&gt;egg-cluster&lt;/c
   }
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-e7884e571e471ced.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">github 博客</summary></entry><entry><title type="html">正则+接口记录</title><link href="http://localhost:4000/jekyll/update/2019/09/03/reg+api.html" rel="alternate" type="text/html" title="正则+接口记录" /><published>2019-09-03T00:00:00+08:00</published><updated>2019-09-03T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/03/reg+api</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/03/reg+api.html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/fuchaosz/article/details/51333038&quot;&gt;必须包含数字、字母的校验&lt;/a&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2019-09-04/3.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">github 博客</summary></entry><entry><title type="html">正则+接口记录</title><link href="http://localhost:4000/jekyll/update/2019/09/03/reg+api.html" rel="alternate" type="text/html" title="正则+接口记录" /><published>2019-09-03T00:00:00+08:00</published><updated>2019-09-03T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/03/reg+api</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/03/reg+api.html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/fuchaosz/article/details/51333038&quot;&gt;必须包含数字、字母的校验&lt;/a&gt;
 &lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F&quot;&gt;正则表达式&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;正则表达式&quot;&gt;正则表达式&lt;/h1&gt;
@@ -147,21 +153,24 @@ egg 内置了  &lt;code class=&quot;highlighter-rouge&quot;&gt;egg-cluster&lt;/c
       &lt;li&gt;DELETE lessonOrganizationClassMembers/:id?roleId=1&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">必须包含数字、字母的校验 正则表达式</summary></entry><entry><title type="html">async / await</title><link href="http://localhost:4000/jekyll/update/2019/09/02/async+await.html" rel="alternate" type="text/html" title="async / await" /><published>2019-09-02T00:00:00+08:00</published><updated>2019-09-02T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/02/async+await</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/02/async+await.html">&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5b99cbe35188255c930dc74c#heading-10&quot;&gt;深入理解async / await&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">必须包含数字、字母的校验 正则表达式</summary></entry><entry><title type="html">async / await</title><link href="http://localhost:4000/jekyll/update/2019/09/02/async+await.html" rel="alternate" type="text/html" title="async / await" /><published>2019-09-02T00:00:00+08:00</published><updated>2019-09-02T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/09/02/async+await</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/09/02/async+await.html">&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5b99cbe35188255c930dc74c#heading-10&quot;&gt;深入理解 async / await&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;async&quot;&gt;async&lt;/h1&gt;
-&lt;p&gt;使用&lt;code class=&quot;highlighter-rouge&quot;&gt;async&lt;/code&gt;声明函数，和普通函数唯一的区别在于，返回的是Promise对象
-&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-063b71e3da2c87dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;怎么取到async函数返回的promise对象里的值&quot;&gt;怎么取到async函数返回的&lt;code class=&quot;highlighter-rouge&quot;&gt;Promise&lt;/code&gt;对象里的值？&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/1933701-d8bd78441f720c14.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;image.png&quot; /&gt;
-&lt;strong&gt;!!!&lt;code class=&quot;highlighter-rouge&quot;&gt;await&lt;/code&gt;关键字只能在&lt;code class=&quot;highlighter-rouge&quot;&gt;async&lt;/code&gt;函数里使用&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;使用&lt;code class=&quot;highlighter-rouge&quot;&gt;async&lt;/code&gt;声明函数，和普通函数唯一的区别在于，返回的是 Promise 对象
+&lt;img src=&quot;/assets/2019-09-02/1.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;怎么取到-async-函数返回的promise对象里的值&quot;&gt;怎么取到 async 函数返回的&lt;code class=&quot;highlighter-rouge&quot;&gt;Promise&lt;/code&gt;对象里的值？&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2019-09-02/2.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;!!!&lt;code class=&quot;highlighter-rouge&quot;&gt;await&lt;/code&gt;关键字只能在&lt;code class=&quot;highlighter-rouge&quot;&gt;async&lt;/code&gt;函数里使用&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;await&quot;&gt;await&lt;/h1&gt;
 
 &lt;h1 id=&quot;return-new-promise&quot;&gt;return new Promise&lt;/h1&gt;
 
-&lt;h1 id=&quot;promiseall&quot;&gt;Promise.all()&lt;/h1&gt;</content><author><name></name></author><summary type="html">深入理解async / await</summary></entry><entry><title type="html">bug及解决方案记录</title><link href="http://localhost:4000/jekyll/update/2019/08/30/bug+solution.html" rel="alternate" type="text/html" title="bug及解决方案记录" /><published>2019-08-30T00:00:00+08:00</published><updated>2019-08-30T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/30/bug+solution</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/30/bug+solution.html">&lt;h1 id=&quot;网盘&quot;&gt;网盘&lt;/h1&gt;
+&lt;h1 id=&quot;promiseall&quot;&gt;Promise.all()&lt;/h1&gt;</content><author><name></name></author><summary type="html">深入理解 async / await</summary></entry><entry><title type="html">bug及解决方案记录</title><link href="http://localhost:4000/jekyll/update/2019/08/30/bug+solution.html" rel="alternate" type="text/html" title="bug及解决方案记录" /><published>2019-08-30T00:00:00+08:00</published><updated>2019-08-30T00:00:00+08:00</updated><id>http://localhost:4000/jekyll/update/2019/08/30/bug+solution</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/08/30/bug+solution.html">&lt;h1 id=&quot;网盘&quot;&gt;网盘&lt;/h1&gt;
 &lt;h2 id=&quot;bug&quot;&gt;bug&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/2019-08-30/2.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;bug原因&quot;&gt;bug原因&lt;/h2&gt;
