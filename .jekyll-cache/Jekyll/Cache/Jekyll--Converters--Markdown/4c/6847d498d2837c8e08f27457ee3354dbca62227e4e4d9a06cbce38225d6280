@@ -1,0 +1,34 @@
+I"�<ol>
+  <li>
+    <p>必填 or 非必填
+<img src="/blog/assets/2019-08-26/1.png" alt="image.png" /></p>
+  </li>
+  <li>
+    <p>符合需求
+<img src="/blog/assets/2019-08-26/2.png" alt="image.png" />
+<img src="/blog/assets/2019-08-26/3.png" alt="image.png" /></p>
+  </li>
+  <li>
+    <p>是否支持 过滤、分页
+<img src="/blog/assets/2019-08-26/4.png" alt="image.png" /></p>
+  </li>
+  <li>
+    <p>接口已经通过测试
+<img src="/blog/assets/2019-08-26/5.png" alt="image.png" /></p>
+  </li>
+  <li>
+    <p>为空的字段是 不传 or null or “” 
+<img src="/blog/assets/2019-08-26/6.png" alt="image.png" /></p>
+  </li>
+  <li>
+    <p>接口若没实现，在文档中备注下
+<img src="/blog/assets/2019-08-26/7.png" alt="image.png" /></p>
+  </li>
+  <li>
+    <p>至少同一个接口，返回的形式是统一的
+<img src="/blog/assets/2019-08-26/8.png" alt="image.png" />
+<img src="/blog/assets/2019-08-26/9.png" alt="image.png" /></p>
+  </li>
+</ol>
+
+:ET

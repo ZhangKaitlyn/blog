@@ -1,0 +1,30 @@
+I"�<h2 id="分页方式">分页方式</h2>
+<h3 id="传统分页">传统分页</h3>
+<p><img src="/blog/assets/2019-08-28/1.png" alt="image.png" /></p>
+
+<h3 id="流式分页无限加载">流式分页（无限加载）</h3>
+<h4 id="原理">原理：</h4>
+<ul>
+  <li><a href="https://blog.lxxyx.cn/2017/04/27/2017/web/infinite-scroll/#%E5%8E%9F%E7%90%86">原文</a></li>
+</ul>
+
+<p>在需要无限加载的列表底部，埋下一个隐藏元素。不断滚动，隐藏元素出现在viewport里时，加载列表数据。
+HTML结构：</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div&gt;</span>
+  <span class="nt">&lt;ul&gt;</span>
+    <span class="nt">&lt;li&gt;</span>列表内容<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>列表内容<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>列表内容<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>列表内容<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;/ul&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"infinite-scroll-siginal"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<h4 id="优点">优点</h4>
+
+<hr />
+<ul>
+  <li><a href="[https://aotu.io/notes/2017/06/27/infinite-scrolling/index.html](https://aotu.io/notes/2017/06/27/infinite-scrolling/index.html)">流式分页方案探索</a></li>
+  <li><a href="https://github.com/xitu/gold-miner/blob/master/TODO/ux-infinite-scrolling-vs-pagination.md">Infinite Scrolling vs. Pagination</a></li>
+</ul>
+:ET

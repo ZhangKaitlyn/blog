@@ -1,0 +1,5 @@
+I"W<ul>
+  <li><code class="highlighter-rouge">\w</code>（小写w）: 匹配包括下划线的任何单词字符。等价于 <code class="highlighter-rouge">[A-Za-z0-9]</code></li>
+  <li><code class="highlighter-rouge">\W</code>（大写W）: 匹配任何非单词字符。等价于 <code class="highlighter-rouge">[^A-Za-z0-9]</code></li>
+</ul>
+:ET

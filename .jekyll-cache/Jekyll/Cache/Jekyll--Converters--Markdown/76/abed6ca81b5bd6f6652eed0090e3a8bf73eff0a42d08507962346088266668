@@ -1,0 +1,11 @@
+I"�<ul>
+  <li>jest: 对js进行单元测试的框架</li>
+  <li>
+    <p><a href="[https://sinonjs.org/](https://sinonjs.org/)">sinon.js</a>: js库，用于做独立测试和模拟</p>
+  </li>
+  <li>
+    <p>sinon.spy(): 用于监视函数的调用情况，比如：函数是否被调用，被调用几次，传入的参数，返回的结果等</p>
+  </li>
+  <li>sinon.stub(): 嵌入或者替换某些代码，使用最少的依赖方法来模拟单元测试</li>
+</ul>
+:ET
