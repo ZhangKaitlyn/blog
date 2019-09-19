@@ -5,6 +5,7 @@ locale: en_US
 description: A simple and clean responsive Jekyll theme for words and photos.
 logo: site-logo.png
 url: https://mmistakes.github.io/so-simple-theme
+baseurl: /blog
 
 # Jekyll configuration
 theme: jekyll-theme-so-simple
