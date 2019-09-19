@@ -1,0 +1,19 @@
+I".<h1 id="网盘">网盘</h1>
+<h2 id="bug">bug</h2>
+<p><img src="/blog/assets/2019-08-30/2.png" alt="image.png" /></p>
+<h2 id="bug原因">bug原因</h2>
+
+<ol>
+  <li>起因：网盘文件多时，由于没有分页，每次打开，有多少个文件，就需要渲染多少dom</li>
+  <li>解决方案：使用<a href="https://peachscript.github.io/vue-infinite-loading/guide/use-with-el-table.html">vue-infinite-loading</a>无限加载</li>
+  <li>新的bug：文件数&lt;15个时，网盘一直处于加载状态，或者操作后卡顿
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// 文件数=0时
+fileListChunk = []
+fileListChunk.length = 0
+this.nowPage = 1
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p><img src="/blog/assets/2019-08-30/1.png" alt="image.png" /></p>
+:ET

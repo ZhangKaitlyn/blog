@@ -1,0 +1,23 @@
+I"B<h1 id="jest-只测试单个文件">jest 只测试单个文件</h1>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>testRegex: 'TableType.spec.js',
+</code></pre></div></div>
+
+<h1 id="el-table--vue-infinite-loading-的测试">el-table + vue-infinite-loading 的测试：</h1>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div id="app"&gt;
+  &lt;el-table&gt;
+    &lt;!-- el-table-column items --&gt;
+
+    &lt;infinite-loading
+      slot="append"
+      @infinite="infiniteHandler"
+      force-use-infinite-wrapper=".el-table__body-wrapper"&gt;
+        &lt;div slot="no-more" class="table-type-no-more"&gt;没有更多了&lt;/div&gt;
+    &lt;/infinite-loading&gt;
+  &lt;/el-table&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<p>how to test no-more slot ???</p>
+:ET

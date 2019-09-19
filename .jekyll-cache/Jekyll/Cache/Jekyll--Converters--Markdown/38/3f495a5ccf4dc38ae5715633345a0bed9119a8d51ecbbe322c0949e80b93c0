@@ -1,0 +1,10 @@
+I"
+<ul>
+  <li><code class="highlighter-rouge">\w</code>（小写w）: 匹配包括下划线的任何单词字符。等价于 <code class="highlighter-rouge">[A-Za-z0-9]</code></li>
+  <li><code class="highlighter-rouge">\W</code>（大写W）: 匹配任何非单词字符。等价于 <code class="highlighter-rouge">[^A-Za-z0-9]</code></li>
+</ul>
+
+<p>匹配中文的正则表达式：[\u4e00-\u9fa5]</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sr">/</span><span class="se">[\u</span><span class="sr">4e00-</span><span class="se">\u</span><span class="sr">9fa5</span><span class="se">]</span><span class="sr">/</span><span class="p">.</span><span class="nx">test</span><span class="p">(</span><span class="dl">'</span><span class="s1">地方</span><span class="dl">'</span><span class="p">))</span> <span class="c1">// true</span>
+</code></pre></div></div>
+:ET

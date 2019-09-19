@@ -1,0 +1,39 @@
+I"�<h1 id="css-difference-between-transition-and-animation">[css] difference between transition and animation</h1>
+
+<h2 id="transition">transition:</h2>
+
+<ul>
+  <li>使用条件：需要事件触发（例如： :hover, :focus, :checked, javascript 触发 等）</li>
+  <li>只能定<strong>开始状态</strong>和<strong>结束状态</strong>，不能定义中间状态</li>
+</ul>
+
+<h2 id="animation">animation</h2>
+
+<ul>
+  <li>不需要事件触发</li>
+  <li>可以有多个状态</li>
+  <li>主要包括两个部分：
+    <ul>
+      <li>用 <code class="highlighter-rouge">@keyframes</code> 声明一个动画</li>
+      <li>在 <code class="highlighter-rouge">animation</code> 中调用关键帧声明的动画</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="css-max-width100-not-working-when-div-displaytable">[css] max-width:100% not working when div display:table</h1>
+
+<h2 id="demo-with-bug--demo-in-codepen">demo with bug —— demo in Codepen</h2>
+
+<p><a href="https://codepen.io/ZhangKaitlyn/pen/RwbQvjv">max-width:100% not working for table layout</a></p>
+
+<h2 id="demo-with-solution--demo-in-codepen">demo with solution —— demo in Codepen</h2>
+
+<p>Solution:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table-layout: fixed;
+</code></pre></div></div>
+
+<p><a href="https://codepen.io/ZhangKaitlyn/pen/PoYQVQr">Solution:max-width:100% not working for table layout</a></p>
+:ET

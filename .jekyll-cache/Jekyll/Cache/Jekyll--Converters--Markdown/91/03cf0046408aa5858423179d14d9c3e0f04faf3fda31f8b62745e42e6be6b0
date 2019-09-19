@@ -1,0 +1,36 @@
+I"�<h2 id="需求">需求</h2>
+<p><img src="/blog/assets/2019-08-29/1.png" alt="image.png" /></p>
+
+<h2 id="实现">实现</h2>
+<h3 id="action">action</h3>
+<p><img src="/blog/assets/2019-08-29/2.png" alt="image.png" />
+<img src="/blog/assets/2019-08-29/3.png" alt="image.png" /></p>
+<h3 id="mutation">mutation</h3>
+<p><img src="/blog/assets/2019-08-29/4.png" alt="image.png" /></p>
+<h3 id="getter">getter</h3>
+<p><img src="/blog/assets/2019-08-29/5.png" alt="image.png" /></p>
+
+<h3 id="vue">vue</h3>
+<p><img src="/blog/assets/2019-08-29/6.png" alt="image.png" />
+<img src="/blog/assets/2019-08-29/7.png" alt="image.png" /></p>
+
+<h3 id="今天犯的错">今天犯的错：</h3>
+<h4 id="momentjs"><a href="https://momentjs.com/docs/">momentjs</a></h4>
+<ul>
+  <li>HH vs hh
+    <ul>
+      <li>HH: Hours (24 hour time)</li>
+      <li>hh: Hours (12 hour time used with a A.)</li>
+    </ul>
+  </li>
+  <li>MM vs mm
+    <ul>
+      <li>MM: <strong>Month</strong> number</li>
+      <li>mm: <strong>Minutes</strong>
+<img src="/blog/assets/2019-08-29/8.png" alt="image.png" /></li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="/blog/assets/2019-08-29/9.png" alt="image.png" /></p>
+:ET

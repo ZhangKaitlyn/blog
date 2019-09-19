@@ -1,0 +1,19 @@
+I"L<p><a href="https://juejin.im/post/5b99cbe35188255c930dc74c#heading-10">深入理解 async / await</a></p>
+
+<h1 id="async">async</h1>
+
+<p>使用<code class="highlighter-rouge">async</code>声明函数，和普通函数唯一的区别在于，返回的是 Promise 对象
+<img src="/blog/assets/2019-09-02/1.png" alt="image.png" /></p>
+
+<h2 id="怎么取到-async-函数返回的promise对象里的值">怎么取到 async 函数返回的<code class="highlighter-rouge">Promise</code>对象里的值？</h2>
+
+<p><img src="/blog/assets/2019-09-02/2.png" alt="image.png" /></p>
+
+<p><strong>!!!<code class="highlighter-rouge">await</code>关键字只能在<code class="highlighter-rouge">async</code>函数里使用</strong></p>
+
+<h1 id="await">await</h1>
+
+<h1 id="return-new-promise">return new Promise</h1>
+
+<h1 id="promiseall">Promise.all()</h1>
+:ET
