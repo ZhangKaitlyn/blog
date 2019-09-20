@@ -108,4 +108,9 @@ var store = [{
         "excerpt":"由于没有给style加scope产生的bug keepwork issue #5268 ","categories": ["jekyll","update"],
         "tags": ["css"],
         "url": "http://localhost:4000/jekyll/update/css-scoped/"
+      },{
+        "title": "Chrome DevTools —— Audits",
+        "excerpt":"Chrome DevTools Optimize Website Speed加载优化流程： 1. 审查站点 作用: 和修改后的效果进行比较 提供可优化的点 分析审查结果 Audit Performance References Metrics FCP(First Contentful Paint) First Meaningful Paint Speed Index First CPU Idle Time to Interactive Max Potential First Input Delay Opportunities 如何优化该网页加载性能的建议 Serve images in next-gen formates Properly size images Eliminate render-blocking resources Remove unused CSS...","categories": ["jekyll","update"],
+        "tags": ["优化"],
+        "url": "http://localhost:4000/jekyll/update/chrome-dev-tools/"
       }]

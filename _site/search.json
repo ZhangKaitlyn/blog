@@ -2,6 +2,14 @@
 
   
     {
+      "title"			: "Chrome DevTools —— Audits",
+      "link"			: "http://localhost:4000/jekyll/update/chrome-dev-tools/",
+      "excerpt"		: "Chrome DevTools"
+    }
+  
+
+  
+    ,{
       "title"			: "scoped css",
       "link"			: "http://localhost:4000/jekyll/update/css-scoped/",
       "excerpt"		: "由于没有给style加scope产生的bugkeepwork issue #5268"

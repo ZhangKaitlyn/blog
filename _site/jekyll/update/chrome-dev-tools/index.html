@@ -5,17 +5,17 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>scoped css &#8211; ZhangKaitlyn的博客</title>
-<meta name="description" content="由于没有给style加scope产生的bug
-keepwork issue #5268
+<title>Chrome DevTools —— Audits &#8211; ZhangKaitlyn的博客</title>
+<meta name="description" content="Chrome DevTools
+
 ">
-<meta name="keywords" content="css">
+<meta name="keywords" content="优化">
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="scoped css">
-<meta name="twitter:description" content="由于没有给style加scope产生的bug
-keepwork issue #5268
+<meta name="twitter:title" content="Chrome DevTools —— Audits">
+<meta name="twitter:description" content="Chrome DevTools
+
 ">
 
 
@@ -26,18 +26,18 @@ keepwork issue #5268
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="scoped css">
-<meta property="og:description" content="由于没有给style加scope产生的bug
-keepwork issue #5268
+<meta property="og:title" content="Chrome DevTools —— Audits">
+<meta property="og:description" content="Chrome DevTools
+
 ">
-<meta property="og:url" content="http://localhost:4000/jekyll/update/css-scoped/">
+<meta property="og:url" content="http://localhost:4000/jekyll/update/chrome-dev-tools/">
 <meta property="og:site_name" content="ZhangKaitlyn的博客">
 
 
 <meta name="msvalidate.01" content="D81F4C18A6CB3018F64D7C827D953DFD">
 
 
-<link rel="canonical" href="http://localhost:4000/jekyll/update/css-scoped/">
+<link rel="canonical" href="http://localhost:4000/jekyll/update/chrome-dev-tools/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="ZhangKaitlyn的博客 Feed">
 
 <!-- https://t.co/dKP3o1e -->
@@ -123,10 +123,10 @@ keepwork issue #5268
     <div class="entry-wrapper">
       <header class="entry-header">
         <ul class="entry-tags">
-          <li><a href="http://localhost:4000/tags/#css" title="Pages tagged css">css</a></li>
+          <li><a href="http://localhost:4000/tags/#优化" title="Pages tagged 优化">优化</a></li>
         </ul>
         
-          <h1 class="entry-title">scoped css</h1>
+          <h1 class="entry-title">Chrome DevTools —— Audits</h1>
         
       </header>
       <footer class="entry-meta">
@@ -135,7 +135,7 @@ keepwork issue #5268
           <img src="http://localhost:4000/images/profile.jpg" class="bio-photo" alt="ZhangKaitlyn bio photo">
         
         <span class="author vcard">By <span class="fn">ZhangKaitlyn</span></span>
-        <span class="entry-date date published"><time datetime="2019-09-10T00:00:00+08:00"><i class="fa fa-calendar-o"></i> September 10, 2019</time></span>
+        <span class="entry-date date published"><time datetime="2019-09-20T00:00:00+08:00"><i class="fa fa-calendar-o"></i> September 20, 2019</time></span>
         
         <span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#disqus_thread">Comment</a></span>
         
@@ -159,8 +159,92 @@ keepwork issue #5268
 <!-- /.google-ads -->
       </footer>
       <div class="entry-content">
-        <h1 id="由于没有给style加scope产生的bug">由于没有给style加scope产生的bug</h1>
-<p><a href="https://github.com/tatfook/keepwork/issues/5268">keepwork issue #5268</a></p>
+        <h1 id="chrome-devtools">Chrome DevTools</h1>
+
+<ul>
+  <li><a href="https://developers.google.com/web/tools/chrome-devtools/speed/get-started">Optimize Website Speed</a></li>
+</ul>
+
+<h2 id="加载优化流程">加载优化流程：</h2>
+
+<h3 id="1-审查站点">1. 审查站点</h3>
+
+<h4 id="作用">作用:</h4>
+
+<ul>
+  <li>和修改后的效果进行比较</li>
+  <li>提供可优化的点</li>
+</ul>
+
+<p><img src="/assets/2019-09-20/1.png" alt="image.png" /></p>
+
+<p><img src="/assets/2019-09-20/2.png" alt="image.png" /></p>
+
+<h4 id="分析审查结果">分析审查结果</h4>
+
+<p><a href="https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains">Audit Performance References</a></p>
+
+<p><img src="/assets/2019-09-20/3.png" alt="image.png" /></p>
+
+<h5 id="metrics">Metrics</h5>
+
+<p><img src="/assets/2019-09-20/4.png" alt="image.png" /></p>
+
+<h6 id="fcpfirst-contentful-paint">FCP(First Contentful Paint)</h6>
+
+<h6 id="first-meaningful-paint">First Meaningful Paint</h6>
+
+<h6 id="speed-index">Speed Index</h6>
+
+<h6 id="first-cpu-idle">First CPU Idle</h6>
+
+<h6 id="time-to-interactive">Time to Interactive</h6>
+
+<h6 id="max-potential-first-input-delay">Max Potential First Input Delay</h6>
+
+<h5 id="opportunities">Opportunities</h5>
+
+<p>如何优化该网页加载性能的建议</p>
+
+<p><img src="/assets/2019-09-20/5.png" alt="image.png" /></p>
+
+<h6 id="serve-images-in-next-gen-formates">Serve images in next-gen formates</h6>
+
+<h6 id="properly-size-images">Properly size images</h6>
+
+<h6 id="eliminate-render-blocking-resources">Eliminate render-blocking resources</h6>
+
+<h6 id="remove-unused-css">Remove unused CSS</h6>
+
+<h6 id="efficiently-encode-images">Efficiently encode images</h6>
+
+<h5 id="diagnotics">Diagnotics</h5>
+
+<p>其余影响页面加载时间的因素</p>
+
+<p><img src="/assets/2019-09-20/6.png" alt="image.png" /></p>
+
+<h6 id="ensure-text-remains-visible-during-webfont-load">Ensure text remains visible during webfont load</h6>
+
+<h6 id="serve-static-assets-with-an-effcient-cache-policy">Serve static assets with an effcient cache policy</h6>
+
+<h6 id="minimize-main-thread-word">Minimize main-thread word</h6>
+
+<h6 id="avoid-enormous-network-payloads">Avoid enormous network payloads</h6>
+
+<h6 id="reduce-javascript-execution-time">Reduce JavaScript execution time</h6>
+
+<h6 id="avoid-an-excessive-dom-size">Avoid an excessive DOM size</h6>
+
+<h6 id="minimize-critical-requests-depth">Minimize Critical Requests Depth</h6>
+
+<h6 id="keep-request-counts-low-and-transfer-sizes-small">Keep request counts low and transfer sizes small</h6>
+
+<h5 id="passed-audits">Passed audits</h5>
+
+<p>该网页通过审查的项</p>
+
+<p><img src="/assets/2019-09-20/7.png" alt="image.png" /></p>
 
         
           <div id="disqus_thread"></div><!-- /#disqus_thread -->
@@ -192,10 +276,8 @@ keepwork issue #5268
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
-        <a href="http://localhost:4000/jekyll/update/css/" class="btn" title="css transition vs animation + css max-width:100% of table">Previous</a>
+        <a href="http://localhost:4000/jekyll/update/css-scoped/" class="btn" title="scoped css">Previous</a>
       
-      
-        <a href="http://localhost:4000/jekyll/update/chrome-dev-tools/" class="btn" title="Chrome DevTools —— Audits">Next</a>
       
     </nav><!-- /.pagination -->
   </article>
