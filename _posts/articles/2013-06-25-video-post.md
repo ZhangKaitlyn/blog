@@ -3,7 +3,7 @@ layout: post
 title: "A Post with a Video"
 excerpt: "Custom written post descriptions are the way to go... if you're not lazy."
 categories: articles
-tags: [sample-post, video]
+tags: [theme-old]
 comments: true
 share: true
 modified: 2016-06-01T14:18:26-04:00

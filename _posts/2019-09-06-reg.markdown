@@ -3,6 +3,7 @@ layout: post
 title: 正则表达式——中文检测
 date: 2019-09-06
 categories: jekyll update
+tags: [正则]
 ---
 
 - `\w`（小写w）: 匹配包括下划线的任何单词字符。等价于 `[A-Za-z0-9]`

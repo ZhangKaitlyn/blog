@@ -3,6 +3,7 @@ layout: post
 title: 'async / await'
 date: 2019-09-02
 categories: jekyll update
+tags: [js]
 ---
 
 [深入理解 async / await](https://juejin.im/post/5b99cbe35188255c930dc74c#heading-10)

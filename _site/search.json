@@ -84,7 +84,7 @@
     ,{
       "title"			: "单元测试",
       "link"			: "http://localhost:4000/jekyll/update/vue+test+utils/",
-      "excerpt"		: "  jest: 对js进行单元测试的框架  sinon.js: js库，用于做独立测试和模拟"
+      "excerpt"		: "  jest: 对 js 进行单元测试的框架  sinon.js: js 库，用于做独立测试和模拟"
     }
   
 
@@ -183,12 +183,6 @@
   
 
   
-    ,{
-      "title"			: "关于我",
-      "link"			: "http://localhost:4000/about/",
-      "excerpt"		: ""
-    }
-  
 
   
 
@@ -209,10 +203,8 @@
   
 
   
-
-  
     ,{
-      "title"			: "About the Jekyll Theme",
+      "title"			: "关于我",
       "link"			: "http://localhost:4000/about/",
       "excerpt"		: "So Simple is a responsive Jekyll theme for your words and images."
     }

@@ -3,6 +3,7 @@ layout: post
 title: 'github博客 react+egg项目部署'
 date: 2019-09-04
 categories: jekyll update
+tags: [随笔]
 ---
 
 # github 博客

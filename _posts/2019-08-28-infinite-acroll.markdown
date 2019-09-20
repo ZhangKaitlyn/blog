@@ -3,6 +3,7 @@ layout: post
 title:  "无限加载+分页"
 date: 2019-08-28
 categories: jekyll update
+tags: [优化]
 ---
 
 ## 分页方式

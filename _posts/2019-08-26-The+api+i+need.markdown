@@ -3,6 +3,7 @@ layout: post
 title:  "我想要的接口？"
 date: 2019-08-26
 categories: jekyll update
+tags: [后端]
 ---
 
 1. 必填 or 非必填
@@ -18,7 +19,7 @@ categories: jekyll update
 4. 接口已经通过测试
 ![image.png]({{site.baseurl}}/assets/2019-08-26/5.png)
 
-5. 为空的字段是 不传 or null or "" 
+5. 为空的字段是 不传 or null or ""
 ![image.png]({{site.baseurl}}/assets/2019-08-26/6.png)
 
 6. 接口若没实现，在文档中备注下

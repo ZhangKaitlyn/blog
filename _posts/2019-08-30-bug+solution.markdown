@@ -3,6 +3,7 @@ layout: post
 title:  "bug及解决方案记录"
 date: 2019-08-30
 categories: jekyll update
+tags: [错误, 优化]
 ---
 
 # 网盘

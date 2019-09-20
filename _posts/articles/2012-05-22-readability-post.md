@@ -3,7 +3,7 @@ layout: post
 title: "Testing Readability with a Bunch of Text"
 excerpt: "A ton of text to test readability."
 categories: articles
-tags: [sample-post, readability, test, intro]
+tags: [theme-old]
 image:
   feature: so-simple-sample-image-2.jpg
   credit: WeGraphics

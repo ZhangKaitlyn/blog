@@ -4,7 +4,7 @@ title: "MathJax Example"
 modified:
 categories: blog
 excerpt:
-tags: []
+tags: [theme-old]
 image:
   feature:
 date: 2015-08-10T08:08:50-04:00

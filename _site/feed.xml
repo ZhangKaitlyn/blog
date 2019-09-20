@@ -4,12 +4,12 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2019-09-19T19:01:35+08:00</updated>
+<updated>2019-09-20T14:47:08+08:00</updated>
 <id>http://localhost:4000/</id>
 <author>
-  <name>Michael Rose</name>
+  <name>ZhangKaitlyn</name>
   <uri>http://localhost:4000/</uri>
-  <email>michael@mademistakes.com</email>
+  <email>986673640@qq.com</email>
 </author>
 
 
@@ -20,15 +20,15 @@
   <published>2019-09-10T00:00:00+08:00</published>
   <updated>2019-09-10T00:00:00+08:00</updated>
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;h1 id=&quot;由于没有给style加scope产生的bug&quot;&gt;由于没有给style加scope产生的bug&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/tatfook/keepwork/issues/5268&quot;&gt;keepwork issue #5268&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/css-scoped/&quot;&gt;scoped css&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 10, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/css-scoped/&quot;&gt;scoped css&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 10, 2019.&lt;/p&gt;
   </content>
 </entry>
 
@@ -40,9 +40,9 @@
   <published>2019-09-09T00:00:00+08:00</published>
   <updated>2019-09-09T00:00:00+08:00</updated>
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;h1 id=&quot;css-difference-between-transition-and-animation&quot;&gt;[css] difference between transition and animation&lt;/h1&gt;
@@ -84,7 +84,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://codepen.io/ZhangKaitlyn/pen/PoYQVQr&quot;&gt;Solution:max-width:100% not working for table layout&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/css/&quot;&gt;css transition vs animation + css max-width:100% of table&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 09, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/css/&quot;&gt;css transition vs animation + css max-width:100% of table&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 09, 2019.&lt;/p&gt;
   </content>
 </entry>
 
@@ -96,9 +96,9 @@
   <published>2019-09-06T00:00:00+08:00</published>
   <updated>2019-09-06T00:00:00+08:00</updated>
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;ul&gt;
@@ -110,7 +110,7 @@
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;[\u&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;4e00-&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\u&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;9fa5&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'地方'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// true&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/reg/&quot;&gt;正则表达式——中文检测&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 06, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/reg/&quot;&gt;正则表达式——中文检测&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 06, 2019.&lt;/p&gt;
   </content>
 </entry>
 
@@ -122,9 +122,9 @@
   <published>2019-09-05T00:00:00+08:00</published>
   <updated>2019-09-05T00:00:00+08:00</updated>
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;h1 id=&quot;jest-只测试单个文件&quot;&gt;jest 只测试单个文件&lt;/h1&gt;
@@ -150,7 +150,7 @@
 
 &lt;p&gt;how to test no-more slot ???&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/jest-question/&quot;&gt;jest + vue-test-utils question&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 05, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/jest-question/&quot;&gt;jest + vue-test-utils question&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 05, 2019.&lt;/p&gt;
   </content>
 </entry>
 
@@ -162,9 +162,9 @@
   <published>2019-09-04T00:00:00+08:00</published>
   <updated>2019-09-04T00:00:00+08:00</updated>
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;h1 id=&quot;github-博客&quot;&gt;github 博客&lt;/h1&gt;
@@ -204,7 +204,7 @@ egg 内置了 &lt;code class=&quot;highlighter-rouge&quot;&gt;egg-cluster&lt;/co
 
 &lt;p&gt;&lt;img src=&quot;/assets/2019-09-04/3.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/github+blog+react+egg+prod/&quot;&gt;github博客 react+egg项目部署&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 04, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/github+blog+react+egg+prod/&quot;&gt;github博客 react+egg项目部署&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 04, 2019.&lt;/p&gt;
   </content>
 </entry>
 
@@ -216,9 +216,9 @@ egg 内置了 &lt;code class=&quot;highlighter-rouge&quot;&gt;egg-cluster&lt;/co
   <published>2019-09-03T00:00:00+08:00</published>
   <updated>2019-09-03T00:00:00+08:00</updated>
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/fuchaosz/article/details/51333038&quot;&gt;必须包含数字、字母的校验&lt;/a&gt;
@@ -277,7 +277,7 @@ egg 内置了 &lt;code class=&quot;highlighter-rouge&quot;&gt;egg-cluster&lt;/co
   &lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/reg+api/&quot;&gt;正则+接口记录&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 03, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/reg+api/&quot;&gt;正则+接口记录&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 03, 2019.&lt;/p&gt;
   </content>
 </entry>
 
@@ -289,9 +289,9 @@ egg 内置了 &lt;code class=&quot;highlighter-rouge&quot;&gt;egg-cluster&lt;/co
   <published>2019-09-02T00:00:00+08:00</published>
   <updated>2019-09-02T00:00:00+08:00</updated>
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5b99cbe35188255c930dc74c#heading-10&quot;&gt;深入理解 async / await&lt;/a&gt;&lt;/p&gt;
@@ -313,7 +313,7 @@ egg 内置了 &lt;code class=&quot;highlighter-rouge&quot;&gt;egg-cluster&lt;/co
 
 &lt;h1 id=&quot;promiseall&quot;&gt;Promise.all()&lt;/h1&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/async+await/&quot;&gt;async / await&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 02, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/async+await/&quot;&gt;async / await&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 02, 2019.&lt;/p&gt;
   </content>
 </entry>
 
@@ -325,9 +325,9 @@ egg 内置了 &lt;code class=&quot;highlighter-rouge&quot;&gt;egg-cluster&lt;/co
   <published>2019-08-30T00:00:00+08:00</published>
   <updated>2019-08-30T00:00:00+08:00</updated>
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;h1 id=&quot;网盘&quot;&gt;网盘&lt;/h1&gt;
@@ -349,7 +349,7 @@ this.nowPage = 1
 
 &lt;p&gt;&lt;img src=&quot;/assets/2019-08-30/1.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/bug+solution/&quot;&gt;bug及解决方案记录&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 30, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/bug+solution/&quot;&gt;bug及解决方案记录&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 30, 2019.&lt;/p&gt;
   </content>
 </entry>
 
@@ -361,9 +361,9 @@ this.nowPage = 1
   <published>2019-08-29T00:00:00+08:00</published>
   <updated>2019-08-29T00:00:00+08:00</updated>
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;h2 id=&quot;需求&quot;&gt;需求&lt;/h2&gt;
@@ -402,7 +402,7 @@ this.nowPage = 1
 
 &lt;p&gt;&lt;img src=&quot;/assets/2019-08-29/9.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/demand+mistake/&quot;&gt;需求记录+错误记录&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 29, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/demand+mistake/&quot;&gt;需求记录+错误记录&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 29, 2019.&lt;/p&gt;
   </content>
 </entry>
 
@@ -414,9 +414,9 @@ this.nowPage = 1
   <published>2019-08-28T00:00:00+08:00</published>
   <updated>2019-08-28T00:00:00+08:00</updated>
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;h2 id=&quot;分页方式&quot;&gt;分页方式&lt;/h2&gt;
@@ -449,7 +449,7 @@ HTML结构：&lt;/p&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/xitu/gold-miner/blob/master/TODO/ux-infinite-scrolling-vs-pagination.md&quot;&gt;Infinite Scrolling vs. Pagination&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/infinite-acroll/&quot;&gt;无限加载+分页&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 28, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/infinite-acroll/&quot;&gt;无限加载+分页&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 28, 2019.&lt;/p&gt;
   </content>
 </entry>
 
@@ -461,15 +461,15 @@ HTML结构：&lt;/p&gt;
   <published>2019-08-27T00:00:00+08:00</published>
   <updated>2019-08-27T00:00:00+08:00</updated>
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;ul&gt;
-  &lt;li&gt;jest: 对js进行单元测试的框架&lt;/li&gt;
+  &lt;li&gt;jest: 对 js 进行单元测试的框架&lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;[https://sinonjs.org/](https://sinonjs.org/)&quot;&gt;sinon.js&lt;/a&gt;: js库，用于做独立测试和模拟&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;[https://sinonjs.org/](https://sinonjs.org/)&quot;&gt;sinon.js&lt;/a&gt;: js 库，用于做独立测试和模拟&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;sinon.spy(): 用于监视函数的调用情况，比如：函数是否被调用，被调用几次，传入的参数，返回的结果等&lt;/p&gt;
@@ -477,7 +477,7 @@ HTML结构：&lt;/p&gt;
   &lt;li&gt;sinon.stub(): 嵌入或者替换某些代码，使用最少的依赖方法来模拟单元测试&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/vue+test+utils/&quot;&gt;单元测试&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 27, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/vue+test+utils/&quot;&gt;单元测试&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 27, 2019.&lt;/p&gt;
   </content>
 </entry>
 
@@ -489,9 +489,9 @@ HTML结构：&lt;/p&gt;
   <published>2019-08-26T00:00:00+08:00</published>
   <updated>2019-08-26T00:00:00+08:00</updated>
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;ol&gt;
@@ -513,7 +513,7 @@ HTML结构：&lt;/p&gt;
 &lt;img src=&quot;/assets/2019-08-26/5.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;为空的字段是 不传 or null or “” 
+    &lt;p&gt;为空的字段是 不传 or null or “”
 &lt;img src=&quot;/assets/2019-08-26/6.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -528,7 +528,7 @@ HTML结构：&lt;/p&gt;
 &lt;/ol&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/The+api+i+need/&quot;&gt;我想要的接口？&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 26, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/The+api+i+need/&quot;&gt;我想要的接口？&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 26, 2019.&lt;/p&gt;
   </content>
 </entry>
 
@@ -540,9 +540,9 @@ HTML结构：&lt;/p&gt;
   <published>2015-08-10T20:08:50+08:00</published>
   <updated>2015-08-10T20:08:50+08:00</updated>
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;p&gt;&lt;a href=&quot;http://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt; is a simple way of including Tex/LaTex/MathML based mathematics in HTML webpages. To get up and running you need to include the MathJax script in the header of your github pages page, and then write some maths. For LaTex, there are two delimiters you need to know about, one for block or displayed mathematics &lt;code class=&quot;highlighter-rouge&quot;&gt;\[ ... \]&lt;/code&gt;, and the other for inline mathematics &lt;code class=&quot;highlighter-rouge&quot;&gt;\( ... \)&lt;/code&gt;.&lt;/p&gt;
@@ -564,7 +564,7 @@ HTML结构：&lt;/p&gt;
 
 &lt;p&gt;The only thing to look out for is the escaping of the backslash when using markdown, so the delimiters become &lt;code class=&quot;highlighter-rouge&quot;&gt;\\[ ... \\]&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;\\( ... \\)&lt;/code&gt; for inline and block maths respectively.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/mathjax-example/&quot;&gt;MathJax Example&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 10, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/mathjax-example/&quot;&gt;MathJax Example&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 10, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -577,9 +577,9 @@ HTML结构：&lt;/p&gt;
   <published>2014-08-09T03:39:55+08:00</published>
   
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
@@ -601,7 +601,7 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/hello-world/&quot;&gt;Hello World&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 09, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/hello-world/&quot;&gt;Hello World&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 09, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -652,7 +652,7 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;billy_rick&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/author-override/&quot;&gt;Override Author Byline Test Post&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on June 19, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/author-override/&quot;&gt;Override Author Byline Test Post&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on June 19, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -665,9 +665,9 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
   <published>2013-08-16T00:00:00+08:00</published>
   
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -771,7 +771,7 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
   &lt;/ol&gt;
 &lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/code-highlighting-post/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 16, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/code-highlighting-post/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 16, 2013.&lt;/p&gt;
   </content>
 </entry>
 
@@ -783,14 +783,14 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
   <published>2013-08-12T00:00:00+08:00</published>
   <updated>2013-08-12T00:00:00+08:00</updated>
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;p&gt;So Simple Theme now supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To activate just add &lt;code class=&quot;highlighter-rouge&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 12, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 12, 2013.&lt;/p&gt;
   </content>
 </entry>
 
@@ -803,9 +803,9 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
   <published>2013-06-25T00:00:00+08:00</published>
   
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/pdSp4Y4GOQs&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
@@ -819,7 +819,7 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 
 &lt;iframe src=&quot;//player.vimeo.com/video/98146708?title=0&amp;amp;byline=0&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/video-post/&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on June 25, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/video-post/&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on June 25, 2013.&lt;/p&gt;
   </content>
 </entry>
 
@@ -832,9 +832,9 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
   <published>2013-05-23T00:00:00+08:00</published>
   
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;p&gt;This is a sample post with a large feature image up top and tons of text. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
@@ -878,7 +878,7 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/readability-feature-post/&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on May 23, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/readability-feature-post/&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on May 23, 2013.&lt;/p&gt;
   </content>
 </entry>
 
@@ -891,9 +891,9 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
   <published>2013-05-22T00:00:00+08:00</published>
   
   <author>
-    <name>Michael Rose</name>
+    <name>ZhangKaitlyn</name>
     <uri>http://localhost:4000</uri>
-    <email>michael@mademistakes.com</email>
+    <email>986673640@qq.com</email>
   </author>
   <content type="html">
     &lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code class=&quot;highlighter-rouge&quot;&gt;figure&lt;/code&gt; with the appropriate &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt;. Each instance of &lt;code class=&quot;highlighter-rouge&quot;&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
@@ -952,7 +952,7 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Michael Rose at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on May 22, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on May 22, 2013.&lt;/p&gt;
   </content>
 </entry>
 

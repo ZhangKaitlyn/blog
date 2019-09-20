@@ -3,6 +3,7 @@ layout: post
 title: 'jest + vue-test-utils question'
 date: 2019-09-05
 categories: jekyll update
+tags: [单元测试]
 ---
 
 # jest 只测试单个文件
