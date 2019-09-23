@@ -2,6 +2,14 @@
 
   
     {
+      "title"			: "Chrome DevTools —— Audits Result",
+      "link"			: "http://localhost:4000/jekyll/update/fcp-fmp-si/",
+      "excerpt"		: "FCP(First Contentful Paint)——首屏渲染"
+    }
+  
+
+  
+    ,{
       "title"			: "Chrome DevTools —— Audits",
       "link"			: "http://localhost:4000/jekyll/update/chrome-dev-tools/",
       "excerpt"		: "Chrome DevTools"

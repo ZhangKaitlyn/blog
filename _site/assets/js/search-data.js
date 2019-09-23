@@ -113,4 +113,9 @@ var store = [{
         "excerpt":"Chrome DevTools Optimize Website Speed加载优化流程： 1. 审查站点 作用: 和修改后的效果进行比较 提供可优化的点 分析审查结果 Audit Performance References Metrics FCP(First Contentful Paint) First Meaningful Paint Speed Index First CPU Idle Time to Interactive Max Potential First Input Delay Opportunities 如何优化该网页加载性能的建议 Serve images in next-gen formates Properly size images Eliminate render-blocking resources Remove unused CSS...","categories": ["jekyll","update"],
         "tags": ["优化"],
         "url": "http://localhost:4000/jekyll/update/chrome-dev-tools/"
+      },{
+        "title": "Chrome DevTools —— Audits Result",
+        "excerpt":"FCP(First Contentful Paint)——首屏渲染 FCP docs 优化方式（加速资源的下载或者减少会影响 DOM 渲染的下载内容）： 减少阻塞渲染的外部 CSS 文件和页面加载依赖的脚本文件 Render-Blocking CSS &lt;!-- 始终会阻塞渲染 --&gt;&lt;link href=\"style.css\" rel=\"stylesheet\" /&gt;&lt;!-- 只在打印时使用，不会阻塞渲染 --&gt;&lt;link href=\"print.css\" rel=\"stylesheet\" media=\"print\" /&gt;&lt;!-- 符合媒体查询条件（screen-width &gt;= 40em）时，会阻塞渲染； 不符合媒体查询条件(screen-width &lt; 40em)时，不会阻塞渲染 --&gt;&lt;link href=\"other.css\" rel=\"stylesheet\" media=\"(min-width: 40em)\" /&gt; Loading Third-Party JavaScript 使用HTTP Caching 压缩基于文本的资源 优化基于文本的资产的编码和传送大小: 服务器启用 GZIP 压缩 页面加载时减少 JavaScript 运行...","categories": ["jekyll","update"],
+        "tags": ["优化"],
+        "url": "http://localhost:4000/jekyll/update/fcp-fmp-si/"
       }]
