@@ -3,6 +3,14 @@
   
     {
       "title"			: "Chrome DevTools —— Audits Result",
+      "link"			: "http://localhost:4000/jekyll/update/sci-tti-fid-opport/",
+      "excerpt"		: "Metrics"
+    }
+  
+
+  
+    ,{
+      "title"			: "Chrome DevTools —— Audits Result",
       "link"			: "http://localhost:4000/jekyll/update/fcp-fmp-si/",
       "excerpt"		: "FCP(First Contentful Paint)——首屏渲染"
     }

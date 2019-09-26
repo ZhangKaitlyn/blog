@@ -118,4 +118,9 @@ var store = [{
         "excerpt":"FCP(First Contentful Paint)——首屏渲染 FCP docs 优化方式（加速资源的下载或者减少会影响 DOM 渲染的下载内容）： 减少阻塞渲染的外部 CSS 文件和页面加载依赖的脚本文件 Render-Blocking CSS &lt;!-- 始终会阻塞渲染 --&gt;&lt;link href=\"style.css\" rel=\"stylesheet\" /&gt;&lt;!-- 只在打印时使用，不会阻塞渲染 --&gt;&lt;link href=\"print.css\" rel=\"stylesheet\" media=\"print\" /&gt;&lt;!-- 符合媒体查询条件（screen-width &gt;= 40em）时，会阻塞渲染； 不符合媒体查询条件(screen-width &lt; 40em)时，不会阻塞渲染 --&gt;&lt;link href=\"other.css\" rel=\"stylesheet\" media=\"(min-width: 40em)\" /&gt; Loading Third-Party JavaScript 使用HTTP Caching 压缩基于文本的资源 优化基于文本的资产的编码和传送大小: 服务器启用 GZIP 压缩 页面加载时减少 JavaScript 运行...","categories": ["jekyll","update"],
         "tags": ["优化"],
         "url": "http://localhost:4000/jekyll/update/fcp-fmp-si/"
+      },{
+        "title": "Chrome DevTools —— Audits Result",
+        "excerpt":"Metrics First CPU Idle(曾经也称为 First Interactive) The First CPU Idle metric measures when a page is minimally interactive: Most, but maybe not all, UI elements on the screen are interactive. The page responds, on average, to most user input in a reasonable amount of time.docs 优化关键渲染路径 优化内容效率Time to Interactive(TTI) ——...","categories": ["jekyll","update"],
+        "tags": ["优化"],
+        "url": "http://localhost:4000/jekyll/update/sci-tti-fid-opport/"
       }]

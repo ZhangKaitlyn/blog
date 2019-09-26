@@ -6,7 +6,7 @@
 <head>
 <meta charset="utf-8">
 <title>Chrome DevTools —— Audits Result &#8211; ZhangKaitlyn的博客</title>
-<meta name="description" content="FCP(First Contentful Paint)——首屏渲染
+<meta name="description" content="Metrics
 
 ">
 <meta name="keywords" content="优化">
@@ -14,7 +14,7 @@
 
 <!-- Twitter Cards -->
 <meta name="twitter:title" content="Chrome DevTools —— Audits Result">
-<meta name="twitter:description" content="FCP(First Contentful Paint)——首屏渲染
+<meta name="twitter:description" content="Metrics
 
 ">
 
@@ -27,17 +27,17 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Chrome DevTools —— Audits Result">
-<meta property="og:description" content="FCP(First Contentful Paint)——首屏渲染
+<meta property="og:description" content="Metrics
 
 ">
-<meta property="og:url" content="http://localhost:4000/jekyll/update/fcp-fmp-si/">
+<meta property="og:url" content="http://localhost:4000/jekyll/update/sci-tti-fid-opport/">
 <meta property="og:site_name" content="ZhangKaitlyn的博客">
 
 
 <meta name="msvalidate.01" content="D81F4C18A6CB3018F64D7C827D953DFD">
 
 
-<link rel="canonical" href="http://localhost:4000/jekyll/update/fcp-fmp-si/">
+<link rel="canonical" href="http://localhost:4000/jekyll/update/sci-tti-fid-opport/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="ZhangKaitlyn的博客 Feed">
 
 <!-- https://t.co/dKP3o1e -->
@@ -135,7 +135,7 @@
           <img src="http://localhost:4000/images/profile.jpg" class="bio-photo" alt="ZhangKaitlyn bio photo">
         
         <span class="author vcard">By <span class="fn">ZhangKaitlyn</span></span>
-        <span class="entry-date date published"><time datetime="2019-09-23T00:00:00+08:00"><i class="fa fa-calendar-o"></i> September 23, 2019</time></span>
+        <span class="entry-date date published"><time datetime="2019-09-26T00:00:00+08:00"><i class="fa fa-calendar-o"></i> September 26, 2019</time></span>
         
         <span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#disqus_thread">Comment</a></span>
         
@@ -159,62 +159,88 @@
 <!-- /.google-ads -->
       </footer>
       <div class="entry-content">
-        <h1 id="fcpfirst-contentful-paint首屏渲染">FCP(First Contentful Paint)——首屏渲染</h1>
+        <h1 id="metrics">Metrics</h1>
 
-<p><a href="https://developers.google.com/web/tools/lighthouse/audits/first-contentful-paint?utm_source=lighthouse&amp;utm_medium=devtools">FCP docs</a></p>
+<h2 id="first-cpu-idle曾经也称为-first-interactive">First CPU Idle(曾经也称为 First Interactive)</h2>
 
-<p>优化方式（加速资源的下载或者减少会影响 DOM 渲染的下载内容）：</p>
+<p>The First CPU Idle metric measures when a page is minimally interactive:</p>
 
 <ul>
-  <li>
-    <p>减少阻塞渲染的外部 CSS 文件和页面加载依赖的脚本文件</p>
-
-    <ul>
-      <li>
-        <p><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css">Render-Blocking CSS</a></p>
-
-        <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- 始终会阻塞渲染 --&gt;</span>
-<span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"style.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="nt">/&gt;</span>
-
-<span class="c">&lt;!-- 只在打印时使用，不会阻塞渲染 --&gt;</span>
-<span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"print.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">media=</span><span class="s">"print"</span> <span class="nt">/&gt;</span>
-
-<span class="c">&lt;!-- 符合媒体查询条件（screen-width &gt;= 40em）时，会阻塞渲染； 不符合媒体查询条件(screen-width &lt; 40em)时，不会阻塞渲染 --&gt;</span>
-<span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"other.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">media=</span><span class="s">"(min-width: 40em)"</span> <span class="nt">/&gt;</span>
-</code></pre></div>        </div>
-      </li>
-      <li>
-        <p><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript/">Loading Third-Party JavaScript</a></p>
-      </li>
-    </ul>
-  </li>
-  <li>使用<a href="https://developers.google.com/web/fundamentals/performance/get-started/httpcaching-6">HTTP Caching</a></li>
-  <li>压缩基于文本的资源
-    <ul>
-      <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer">优化基于文本的资产的编码和传送大小</a>: 服务器启用 GZIP 压缩</li>
-    </ul>
-  </li>
-  <li>页面加载时减少 JavaScript 运行
-    <ul>
-      <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/javascript-startup-optimization/">JavaScript 启动优化</a></li>
-      <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking/">Reduce JavaScript payloads with Tree Shaking</a></li>
-      <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting/">使用代码拆分减少 JavaScript 负载</a></li>
-    </ul>
-  </li>
+  <li>Most, but maybe not all, UI elements on the screen are interactive.</li>
+  <li>The page responds, on average, to most user input in a reasonable amount of time.</li>
 </ul>
 
-<h1 id="first-meaningful-paint首次有效绘制">First Meaningful Paint——首次有效绘制</h1>
+<p><a href="https://developers.google.com/web/tools/lighthouse/audits/first-cpu-idle">docs</a></p>
 
 <ul>
   <li><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/">优化关键渲染路径</a></li>
+  <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency">优化内容效率</a></li>
 </ul>
 
-<h1 id="speed-index速度指标">Speed Index——速度指标</h1>
+<h2 id="time-to-interactivetti--可交互时间">Time to Interactive(TTI) —— 可交互时间</h2>
+
+<p>TTI：应用从开始加载到能快速响应用户操作所需的时间
+<a href="https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive">TTI docs</a>
+优化方式同 Speed Index</p>
+
+<h2 id="max-potential-first-input-delay">Max Potential First Input Delay</h2>
+
+<p>FID：用户在页面进行某项操作，应用无反应的时间
+<a href="https://developers.google.com/web/updates/2018/05/first-input-delay?utm_source=lighthouse&amp;utm_medium=devtools">FID docs</a></p>
+
+<h1 id="opportunities">Opportunities</h1>
+
+<h2 id="serve-images-in-next-gen-formates">Serve images in next-gen formates</h2>
+
+<p><a href="https://developers.google.com/web/tools/lighthouse/audits/webp?utm_source=lighthouse&amp;utm_medium=devtools">docs</a></p>
 
 <ul>
-  <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/">优化内容效率</a></li>
-  <li><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/">优化关键渲染路径</a></li>
+  <li>将建议的图片按 WebP 编码</li>
 </ul>
+
+<h2 id="properly-size-images">Properly size images</h2>
+
+<p><a href="https://developers.google.com/web/tools/lighthouse/audits/oversized-images">docs</a></p>
+
+<ul>
+  <li>采用响应式图片
+    <ul>
+      <li><a href="https://developers.google.com/web/fundamentals/design-and-ux/responsive/images#images_in_markup">图像</a></li>
+    </ul>
+  </li>
+  <li>采用矢量图片，比如 SVG</li>
+  <li>Client Hints
+    <ul>
+      <li><a href="https://developers.google.com/web/updates/2015/09/automating-resource-selection-with-client-hints">Automating Resource Selection With Client Hints</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="eliminate-render-blocking-resources">Eliminate render-blocking resources</h2>
+
+<p><a href="https://developers.google.com/web/tools/lighthouse/audits/blocking-resources?utm_source=lighthouse&amp;utm_medium=devtools">docs</a></p>
+
+<ul>
+  <li>非关键脚本：使用<code class="highlighter-rouge">async</code>或<code class="highlighter-rouge">defer</code>属性标记它们
+    <ul>
+      <li><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/adding-interactivity-with-javascript">使用 JavaScript 添加交互</a></li>
+    </ul>
+  </li>
+  <li>非关键样式表：将样式拆分成不同的文件，按媒体查询进行组织，然后先每个样式表链接添加一个<code class="highlighter-rouge">media</code>属性
+    <ul>
+      <li><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css">阻塞渲染的 CSS</a></li>
+    </ul>
+  </li>
+  <li>非关键 HTML：使用<code class="highlighter-rouge">async</code>属性标记它们</li>
+</ul>
+
+<h2 id="remove-unused-css">Remove unused CSS</h2>
+
+<p><a href="https://developers.google.com/web/tools/lighthouse/audits/unused-css?utm_source=lighthouse&amp;utm_medium=devtools">docs</a></p>
+
+<h2 id="efficiently-encode-images">Efficiently encode images</h2>
+
+<p><a href="https://developers.google.com/web/tools/lighthouse/audits/optimize-images?utm_source=lighthouse&amp;utm_medium=devtools">docs</a></p>
 
         
           <div id="disqus_thread"></div><!-- /#disqus_thread -->
@@ -246,10 +272,8 @@
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
-        <a href="http://localhost:4000/jekyll/update/chrome-dev-tools/" class="btn" title="Chrome DevTools —— Audits">Previous</a>
+        <a href="http://localhost:4000/jekyll/update/fcp-fmp-si/" class="btn" title="Chrome DevTools —— Audits Result">Previous</a>
       
-      
-        <a href="http://localhost:4000/jekyll/update/sci-tti-fid-opport/" class="btn" title="Chrome DevTools —— Audits Result">Next</a>
       
     </nav><!-- /.pagination -->
   </article>

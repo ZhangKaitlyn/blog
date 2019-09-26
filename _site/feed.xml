@@ -4,13 +4,113 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2019-09-23T18:50:09+08:00</updated>
+<updated>2019-09-26T18:37:01+08:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>ZhangKaitlyn</name>
   <uri>http://localhost:4000/</uri>
   <email>986673640@qq.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Chrome DevTools —— Audits Result]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/jekyll/update/sci-tti-fid-opport/" />
+  <id>http://localhost:4000/jekyll/update/sci-tti-fid-opport</id>
+  <published>2019-09-26T00:00:00+08:00</published>
+  <updated>2019-09-26T00:00:00+08:00</updated>
+  <author>
+    <name>ZhangKaitlyn</name>
+    <uri>http://localhost:4000</uri>
+    <email>986673640@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;h1 id=&quot;metrics&quot;&gt;Metrics&lt;/h1&gt;
+
+&lt;h2 id=&quot;first-cpu-idle曾经也称为-first-interactive&quot;&gt;First CPU Idle(曾经也称为 First Interactive)&lt;/h2&gt;
+
+&lt;p&gt;The First CPU Idle metric measures when a page is minimally interactive:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Most, but maybe not all, UI elements on the screen are interactive.&lt;/li&gt;
+  &lt;li&gt;The page responds, on average, to most user input in a reasonable amount of time.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/audits/first-cpu-idle&quot;&gt;docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/critical-rendering-path/&quot;&gt;优化关键渲染路径&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency&quot;&gt;优化内容效率&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;time-to-interactivetti--可交互时间&quot;&gt;Time to Interactive(TTI) —— 可交互时间&lt;/h2&gt;
+
+&lt;p&gt;TTI：应用从开始加载到能快速响应用户操作所需的时间
+&lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive&quot;&gt;TTI docs&lt;/a&gt;
+优化方式同 Speed Index&lt;/p&gt;
+
+&lt;h2 id=&quot;max-potential-first-input-delay&quot;&gt;Max Potential First Input Delay&lt;/h2&gt;
+
+&lt;p&gt;FID：用户在页面进行某项操作，应用无反应的时间
+&lt;a href=&quot;https://developers.google.com/web/updates/2018/05/first-input-delay?utm_source=lighthouse&amp;amp;utm_medium=devtools&quot;&gt;FID docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;opportunities&quot;&gt;Opportunities&lt;/h1&gt;
+
+&lt;h2 id=&quot;serve-images-in-next-gen-formates&quot;&gt;Serve images in next-gen formates&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/audits/webp?utm_source=lighthouse&amp;amp;utm_medium=devtools&quot;&gt;docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;将建议的图片按 WebP 编码&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;properly-size-images&quot;&gt;Properly size images&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/audits/oversized-images&quot;&gt;docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;采用响应式图片
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/fundamentals/design-and-ux/responsive/images#images_in_markup&quot;&gt;图像&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;采用矢量图片，比如 SVG&lt;/li&gt;
+  &lt;li&gt;Client Hints
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/updates/2015/09/automating-resource-selection-with-client-hints&quot;&gt;Automating Resource Selection With Client Hints&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;eliminate-render-blocking-resources&quot;&gt;Eliminate render-blocking resources&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/audits/blocking-resources?utm_source=lighthouse&amp;amp;utm_medium=devtools&quot;&gt;docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;非关键脚本：使用&lt;code class=&quot;highlighter-rouge&quot;&gt;async&lt;/code&gt;或&lt;code class=&quot;highlighter-rouge&quot;&gt;defer&lt;/code&gt;属性标记它们
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/critical-rendering-path/adding-interactivity-with-javascript&quot;&gt;使用 JavaScript 添加交互&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;非关键样式表：将样式拆分成不同的文件，按媒体查询进行组织，然后先每个样式表链接添加一个&lt;code class=&quot;highlighter-rouge&quot;&gt;media&lt;/code&gt;属性
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css&quot;&gt;阻塞渲染的 CSS&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;非关键 HTML：使用&lt;code class=&quot;highlighter-rouge&quot;&gt;async&lt;/code&gt;属性标记它们&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;remove-unused-css&quot;&gt;Remove unused CSS&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/audits/unused-css?utm_source=lighthouse&amp;amp;utm_medium=devtools&quot;&gt;docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;efficiently-encode-images&quot;&gt;Efficiently encode images&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/audits/optimize-images?utm_source=lighthouse&amp;amp;utm_medium=devtools&quot;&gt;docs&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/sci-tti-fid-opport/&quot;&gt;Chrome DevTools —— Audits Result&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 26, 2019.&lt;/p&gt;
+  </content>
+</entry>
 
 
 <entry>
@@ -969,35 +1069,6 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
     &lt;p&gt;So Simple Theme now supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To activate just add &lt;code class=&quot;highlighter-rouge&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 12, 2013.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[A Post with a Video]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/video-post/" />
-  <id>http://localhost:4000/articles/video-post</id>
-  <updated>2016-06-01 14:18:26 -0400T00:00:00-00:00</updated>
-  <published>2013-06-25T00:00:00+08:00</published>
-  
-  <author>
-    <name>ZhangKaitlyn</name>
-    <uri>http://localhost:4000</uri>
-    <email>986673640@qq.com</email>
-  </author>
-  <content type="html">
-    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/pdSp4Y4GOQs&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
-
-&lt;p&gt;Video embeds are responsive and scale with the width of the main content block with the help of &lt;a href=&quot;http://fitvidsjs.com/&quot;&gt;FitVids&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;560&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;315&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://www.youtube.com/embed/PWf4WUoMXwg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;And here’s a Vimeo embed for testing purposes.&lt;/p&gt;
-
-&lt;iframe src=&quot;//player.vimeo.com/video/98146708?title=0&amp;amp;byline=0&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/video-post/&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on June 25, 2013.&lt;/p&gt;
   </content>
 </entry>
 
