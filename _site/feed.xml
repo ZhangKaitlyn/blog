@@ -4,13 +4,40 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2019-09-26T18:37:01+08:00</updated>
+<updated>2019-09-27T11:36:11+08:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>ZhangKaitlyn</name>
   <uri>http://localhost:4000/</uri>
   <email>986673640@qq.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[.catch()]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/jekyll/update/catch/" />
+  <id>http://localhost:4000/jekyll/update/catch</id>
+  <published>2019-09-27T00:00:00+08:00</published>
+  <updated>2019-09-27T00:00:00+08:00</updated>
+  <author>
+    <name>ZhangKaitlyn</name>
+    <uri>http://localhost:4000</uri>
+    <email>986673640@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;h1 id=&quot;catch-vs-catch--&quot;&gt;.catch() vs .catch(() =&amp;gt; {})&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;.catch() 无效！！！&lt;/li&gt;
+  &lt;li&gt;.catch(() =&amp;gt; {}) 才有效&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2019-09-27/1.png&quot; alt=&quot;image&quot; /&gt;
+&lt;img src=&quot;/assets/2019-09-27/2.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/catch/&quot;&gt;.catch()&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on September 27, 2019.&lt;/p&gt;
+  </content>
+</entry>
 
 
 <entry>
@@ -1050,25 +1077,6 @@ To add new posts, simply add a file in the &lt;code class=&quot;highlighter-roug
 &lt;/div&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/code-highlighting-post/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 16, 2013.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Sample Link Post]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/articles/sample-link-post/" />
-  <id>http://localhost:4000/articles/sample-link-post</id>
-  <published>2013-08-12T00:00:00+08:00</published>
-  <updated>2013-08-12T00:00:00+08:00</updated>
-  <author>
-    <name>ZhangKaitlyn</name>
-    <uri>http://localhost:4000</uri>
-    <email>986673640@qq.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;So Simple Theme now supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To activate just add &lt;code class=&quot;highlighter-rouge&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/articles/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by ZhangKaitlyn at &lt;a href=&quot;http://localhost:4000&quot;&gt;ZhangKaitlyn的博客&lt;/a&gt; on August 12, 2013.&lt;/p&gt;
   </content>
 </entry>
 

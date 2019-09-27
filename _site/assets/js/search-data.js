@@ -123,4 +123,9 @@ var store = [{
         "excerpt":"Metrics First CPU Idle(曾经也称为 First Interactive) The First CPU Idle metric measures when a page is minimally interactive: Most, but maybe not all, UI elements on the screen are interactive. The page responds, on average, to most user input in a reasonable amount of time.docs 优化关键渲染路径 优化内容效率Time to Interactive(TTI) ——...","categories": ["jekyll","update"],
         "tags": ["优化"],
         "url": "http://localhost:4000/jekyll/update/sci-tti-fid-opport/"
+      },{
+        "title": ".catch()",
+        "excerpt":".catch() vs .catch(() =&gt; {})   .catch() 无效！！！  .catch(() =&gt; {}) 才有效 ","categories": ["jekyll","update"],
+        "tags": ["错误"],
+        "url": "http://localhost:4000/jekyll/update/catch/"
       }]

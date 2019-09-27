@@ -5,16 +5,16 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Chrome DevTools —— Audits Result &#8211; ZhangKaitlyn的博客</title>
-<meta name="description" content="Metrics
+<title>.catch() &#8211; ZhangKaitlyn的博客</title>
+<meta name="description" content=".catch() vs .catch(() =&gt; {})
 
 ">
-<meta name="keywords" content="优化">
+<meta name="keywords" content="错误">
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="Chrome DevTools —— Audits Result">
-<meta name="twitter:description" content="Metrics
+<meta name="twitter:title" content=".catch()">
+<meta name="twitter:description" content=".catch() vs .catch(() =&gt; {})
 
 ">
 
@@ -26,18 +26,18 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Chrome DevTools —— Audits Result">
-<meta property="og:description" content="Metrics
+<meta property="og:title" content=".catch()">
+<meta property="og:description" content=".catch() vs .catch(() =&gt; {})
 
 ">
-<meta property="og:url" content="http://localhost:4000/jekyll/update/sci-tti-fid-opport/">
+<meta property="og:url" content="http://localhost:4000/jekyll/update/catch/">
 <meta property="og:site_name" content="ZhangKaitlyn的博客">
 
 
 <meta name="msvalidate.01" content="D81F4C18A6CB3018F64D7C827D953DFD">
 
 
-<link rel="canonical" href="http://localhost:4000/jekyll/update/sci-tti-fid-opport/">
+<link rel="canonical" href="http://localhost:4000/jekyll/update/catch/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="ZhangKaitlyn的博客 Feed">
 
 <!-- https://t.co/dKP3o1e -->
@@ -123,10 +123,10 @@
     <div class="entry-wrapper">
       <header class="entry-header">
         <ul class="entry-tags">
-          <li><a href="http://localhost:4000/tags/#优化" title="Pages tagged 优化">优化</a></li>
+          <li><a href="http://localhost:4000/tags/#错误" title="Pages tagged 错误">错误</a></li>
         </ul>
         
-          <h1 class="entry-title">Chrome DevTools —— Audits Result</h1>
+          <h1 class="entry-title">.catch()</h1>
         
       </header>
       <footer class="entry-meta">
@@ -135,7 +135,7 @@
           <img src="http://localhost:4000/images/profile.jpg" class="bio-photo" alt="ZhangKaitlyn bio photo">
         
         <span class="author vcard">By <span class="fn">ZhangKaitlyn</span></span>
-        <span class="entry-date date published"><time datetime="2019-09-26T00:00:00+08:00"><i class="fa fa-calendar-o"></i> September 26, 2019</time></span>
+        <span class="entry-date date published"><time datetime="2019-09-27T00:00:00+08:00"><i class="fa fa-calendar-o"></i> September 27, 2019</time></span>
         
         <span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#disqus_thread">Comment</a></span>
         
@@ -159,88 +159,15 @@
 <!-- /.google-ads -->
       </footer>
       <div class="entry-content">
-        <h1 id="metrics">Metrics</h1>
-
-<h2 id="first-cpu-idle曾经也称为-first-interactive">First CPU Idle(曾经也称为 First Interactive)</h2>
-
-<p>The First CPU Idle metric measures when a page is minimally interactive:</p>
+        <h1 id="catch-vs-catch--">.catch() vs .catch(() =&gt; {})</h1>
 
 <ul>
-  <li>Most, but maybe not all, UI elements on the screen are interactive.</li>
-  <li>The page responds, on average, to most user input in a reasonable amount of time.</li>
+  <li>.catch() 无效！！！</li>
+  <li>.catch(() =&gt; {}) 才有效</li>
 </ul>
 
-<p><a href="https://developers.google.com/web/tools/lighthouse/audits/first-cpu-idle">docs</a></p>
-
-<ul>
-  <li><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/">优化关键渲染路径</a></li>
-  <li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency">优化内容效率</a></li>
-</ul>
-
-<h2 id="time-to-interactivetti--可交互时间">Time to Interactive(TTI) —— 可交互时间</h2>
-
-<p>TTI：应用从开始加载到能快速响应用户操作所需的时间
-<a href="https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive">TTI docs</a>
-优化方式同 Speed Index</p>
-
-<h2 id="max-potential-first-input-delay">Max Potential First Input Delay</h2>
-
-<p>FID：用户在页面进行某项操作，应用无反应的时间
-<a href="https://developers.google.com/web/updates/2018/05/first-input-delay?utm_source=lighthouse&amp;utm_medium=devtools">FID docs</a></p>
-
-<h1 id="opportunities">Opportunities</h1>
-
-<h2 id="serve-images-in-next-gen-formates">Serve images in next-gen formates</h2>
-
-<p><a href="https://developers.google.com/web/tools/lighthouse/audits/webp?utm_source=lighthouse&amp;utm_medium=devtools">docs</a></p>
-
-<ul>
-  <li>将建议的图片按 WebP 编码</li>
-</ul>
-
-<h2 id="properly-size-images">Properly size images</h2>
-
-<p><a href="https://developers.google.com/web/tools/lighthouse/audits/oversized-images">docs</a></p>
-
-<ul>
-  <li>采用响应式图片
-    <ul>
-      <li><a href="https://developers.google.com/web/fundamentals/design-and-ux/responsive/images#images_in_markup">图像</a></li>
-    </ul>
-  </li>
-  <li>采用矢量图片，比如 SVG</li>
-  <li>Client Hints
-    <ul>
-      <li><a href="https://developers.google.com/web/updates/2015/09/automating-resource-selection-with-client-hints">Automating Resource Selection With Client Hints</a></li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="eliminate-render-blocking-resources">Eliminate render-blocking resources</h2>
-
-<p><a href="https://developers.google.com/web/tools/lighthouse/audits/blocking-resources?utm_source=lighthouse&amp;utm_medium=devtools">docs</a></p>
-
-<ul>
-  <li>非关键脚本：使用<code class="highlighter-rouge">async</code>或<code class="highlighter-rouge">defer</code>属性标记它们
-    <ul>
-      <li><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/adding-interactivity-with-javascript">使用 JavaScript 添加交互</a></li>
-    </ul>
-  </li>
-  <li>非关键样式表：将样式拆分成不同的文件，按媒体查询进行组织，然后先每个样式表链接添加一个<code class="highlighter-rouge">media</code>属性
-    <ul>
-      <li><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css">阻塞渲染的 CSS</a></li>
-    </ul>
-  </li>
-  <li>非关键 HTML：使用<code class="highlighter-rouge">async</code>属性标记它们</li>
-</ul>
-
-<h2 id="remove-unused-css">Remove unused CSS</h2>
-
-<p><a href="https://developers.google.com/web/tools/lighthouse/audits/unused-css?utm_source=lighthouse&amp;utm_medium=devtools">docs</a></p>
-
-<h2 id="efficiently-encode-images">Efficiently encode images</h2>
-
-<p><a href="https://developers.google.com/web/tools/lighthouse/audits/optimize-images?utm_source=lighthouse&amp;utm_medium=devtools">docs</a></p>
+<p><img src="/assets/2019-09-27/1.png" alt="image" />
+<img src="/assets/2019-09-27/2.png" alt="image" /></p>
 
         
           <div id="disqus_thread"></div><!-- /#disqus_thread -->
@@ -272,10 +199,8 @@
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       
-        <a href="http://localhost:4000/jekyll/update/fcp-fmp-si/" class="btn" title="Chrome DevTools —— Audits Result">Previous</a>
+        <a href="http://localhost:4000/jekyll/update/sci-tti-fid-opport/" class="btn" title="Chrome DevTools —— Audits Result">Previous</a>
       
-      
-        <a href="http://localhost:4000/jekyll/update/catch/" class="btn" title=".catch()">Next</a>
       
     </nav><!-- /.pagination -->
   </article>

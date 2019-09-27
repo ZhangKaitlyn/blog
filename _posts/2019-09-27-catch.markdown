@@ -1,0 +1,15 @@
+---
+layout: post
+title: .catch()
+date: 2019-09-27
+categories: jekyll update
+tags: [错误]
+---
+
+# .catch() vs .catch(() => {})
+
+- .catch() 无效！！！
+- .catch(() => {}) 才有效
+
+![image]({{site.baseurl}}/assets/2019-09-27/1.png)
+![image]({{site.baseurl}}/assets/2019-09-27/2.png)
