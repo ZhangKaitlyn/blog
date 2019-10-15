@@ -7,17 +7,19 @@ search_omit: false
 
 <ul class="post-list">
   {% for post in site.posts limit:10 %}
-  <li>
+  <li style="padding: 16px 0;">
     <article>
-      <a href="{{ site.url }}{{ post.url }}" style="font-size: 24px;font-weight:bold;"
-        >
+      <a
+        href="{{ site.url }}{{ post.url }}"
+        style="font-size: 24px;font-weight:bold;"
+      >
         {{ post.title }}
-        <span class="entry-date"
+        <span class="entry-date" style="font-weight: normal;"
           ><time datetime="{{ post.date | date_to_xmlschema }}">{{
             post.date | date: '%Y-%m-%d'
           }}</time></span
         >{% if post.excerpt %}
-        <span class="excerpt">{{
+        <span class="excerpt" style="font-weight: normal;margin-top: 4px;">{{
           post.excerpt
             | remove: '\[ ... \]'
             | remove: '\( ... \)'
